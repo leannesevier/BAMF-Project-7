@@ -1,1 +1,119 @@
 Team BAMF assemble!
+
+API Info
+https://developer.flightstats.com/api-docs/how_to#ResponseStructure
+
+
+How to Use the Cirium Flex APIs
+The information on this page applies to all versions of the Flex APIs. We recommend that you review this section regardless of which API you plan to use.
+
+Contents:
+
+Supported Protocols
+REST URI Structure
+Response Structure and Options
+Authentication
+Using SOAP
+Where to Go From Here
+Supported Protocols
+The web services are primarily REST style, returning either XML, JSON, or JSONP.
+
+We also offer SOAP endpoints.
+
+Our interactive test clients are REST and JSON-centric, but the returned data is otherwise identical to the REST/XML and SOAP services and may be used to prototype and debug those protocols and formats.
+
+REST URI Structure
+All URIs follow a common pattern:
+
+Base URI: https://api.flightstats.com/flex + 
+API name: e.g., /flightstatus +
+Protocol selector: e.g., /rest
+Version: e.g., /v1
+Format selector: /json, /jsonp, or /xml
+Required parameters: as pathinfo
+Optional parameters, if desired (REST only): ?query_string
+For JSONP, supply the name of your callback method with the optional parameter callback.
+
+For example:
+
+https://api.flightstats.com/flex/flightstatus/rest/v1/jsonp/airport/status/ORD/dep/2012/05/06/?callback=myCallback
+Response Structure and Options
+A Flex API response always includes the following elements:
+
+Response-specific data — for example, flightStatus or flightTrack elements.
+error — for failed requests, information about the error. (Present but empty for successful requests.)
+In addition, some APIs include the following in the response:
+
+request — a summary of the request.
+appendix — supplemental detail about elements of the response. For example, a FlightStatus response typically refers to one or more airports and airlines; details about the referenced airports and airlines are included in the appendix.
+EXTENDED OPTIONS
+Optional Parameter: extendedOptions
+A special optional parameter, extendedOptions, adjusts the format and content of the response. The following options are common to many of the Flex APIs:
+
+useHTTPErrors (available for all Flex APIs)
+useInlinedReferences (available on some Flex APIs)
+includeNewFields (available on all Flex APIs)
+To specify these options, simply include them as an optional parameter. Any of the following are valid:
+
+extendedOptions=useHTTPErrors
+extendedOptions=usehTTpeRRors // (not case sensitive)
+extendedOptions=usehttperrors+useInlinedReferences
+Other Extended Options specify localization, level of detail, and query-specific behaviors. See Extended Options for more information.
+
+ERROR REPORTING
+extendedOptions=useHTTPErrors
+By default, if a REST request to a valid resource results in an error, the server will produce an HTTP 200 status with the error reported in the error element of the response. This approach is friendlier to most javascript frameworks.
+
+If useHTTPErrors is specified, the error will be reported as the HTTP status of the response, with details about the error will be in the body of the error message. A full response object will not be returned.
+
+The following HTTP status codes may be reported:
+
+Code	Name	Description
+200	OK	Standard response for a successful request (or when useHTTPErrors was not specified).
+400	Bad Request	Something was wrong with the request submitted, and it must be corrected before it can succeed. The response body will include details about the error.
+403	Forbidden	Authorization failure; valid credentials were not provided.
+404	Not Found	No resource was found at the specified URI.
+405	Method Not Allowed	The HTTP request specified a method (e.g. PUT, DELETE, OPTIONS, etc.) that is not supported by this resource.
+500	Internal Server Error	Unexpected server-side failure. Should this occur, please contact us for assistance. The response body will include a unique identifier that we can use to help locate the problem.
+INLINE VERSUS APPENDIX DETAILS
+extendedOptions=useInlinedReferences
+By default, potentially repetitive data in responses for some APIs is summarized in the appendix element. For example, in flightStatus elements, airports are referenced as arrivalAirportFsCode and departureAirportFsCode. Details on each airport referenced would appear in an airports element in the appendix.
+
+If you prefer to have this information embedded in the main response element, pass extendedOptions=useInlinedReferences.
+
+Flight Status Response example: 
+with appendix (default)
+as inlined
+
+ACCESSING EXTENDED FIELDS
+extendedOptions=includeNewFields
+By default, API requests return the frozen Long Term Support data for a given version (see Version Policy for details).
+
+If there are new fields available for the requested version they can be included by specifying the option includeNewFields.
+
+Authentication
+Each service invocation is authenticated using your application ID (appId) and application key (appKey).
+
+For the REST APIs, the credentials are query parameters:
+
+Credentials as Query Parameters:
+
+https://api.flightstats.com/flex/flightstatus/v9/xml\
+         /fooservice?appId=12345678\
+         &appKey=abcdefghijklmnopqrstukwxyz123456
+In the SOAP APIs, there are fields in the request for the credentials.
+
+Using SOAP
+WSDL and XSD files for each API can be found in the API Reference Introduction.
+
+Additional links regarding SOAP and accessing Web Services via the SOAP protocal...
+
+What is SOAP?
+Generic SOAP Tutorial
+SoapUI - A Linux, Mac and Windows tool for accessing SOAP endpoints
+Where to Go From Here
+API-specific documentation includes:
+
+full descriptions of the response types, including examples in JSON and XML formats,
+interactive documentation of the request, which allows you to create sample queries and see the responses by filling out and submitting a form within the documentation.
+A good starting point is the the API Reference Introduction, which includes a Quick Reference to all the APIs.

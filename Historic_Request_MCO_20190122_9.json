@@ -1,3 +1,7 @@
+Historical Flight Status
+
+"https://api.flightstats.com/flex/flightstatus/historical/rest/v3/json/airport/status/MCO/dep/2019/1/22/9?codeType=IATA&utc=false&numHours=6"
+
 {
  "request": {
   "endpoint": "ByAirportByDeparture",

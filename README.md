@@ -20,4 +20,8 @@ How can we source and visualize flight delay information across the USA, during 
 
 
 
- 
+12/22/2017	12/22/2018	1/22/2018	1/22/2019	Rob
+12/23/2017	12/23/2018	1/23/2018	1/23/2019	Mike
+12/24/2017	12/24/2018	1/24/2018	1/24/2019	Lillian
+12/25/2017	12/25/2018	1/25/2018	1/25/2019	Luciana
+

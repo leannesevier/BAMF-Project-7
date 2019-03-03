@@ -4107,8 +4107,7 @@
    }
   ]
  }
-=======
-{
+,
  "request": {
   "endpoint": "ByAirportByDeparture",
   "carrier": {

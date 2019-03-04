@@ -1,0 +1,3606 @@
+{
+ "request": {
+  "endpoint": "ByAirportByDeparture",
+  "carrier": {
+   "requested": "DL",
+   "interpreted": "DL"
+  },
+  "departureAirport": {
+   "requested": "MCO",
+   "interpreted": "MCO"
+  },
+  "year": {
+   "requested": "2018",
+   "interpreted": 2018
+  },
+  "month": {
+   "requested": "1",
+   "interpreted": 1
+  },
+  "day": {
+   "requested": "22",
+   "interpreted": 22
+  },
+  "hour": {
+   "requested": "14",
+   "interpreted": 14
+  },
+  "isUtc": {
+   "requested": "false",
+   "interpreted": false
+  },
+  "codeType": {
+   "requested": "IATA",
+   "interpreted": "IATA"
+  },
+  "numHours": {
+   "requested": "6",
+   "interpreted": 6
+  },
+  "url": "https://api.flightstats.com/flex/flightstatus/historical/rest/v3/json/airport/status/MCO/dep/2018/1/22/14?carrier=DL&codeType=IATA&utc=false&numHours=6"
+ },
+ "flightStatuses": [
+  {
+   "flightId": 947143467,
+   "carrierFsCode": "DL",
+   "operatingCarrierFsCode": "DL",
+   "primaryCarrierFsCode": "DL",
+   "flightNumber": "1424",
+   "departureAirportFsCode": "MCO",
+   "arrivalAirportFsCode": "DTW",
+   "departureDate": {
+    "dateUtc": "2018-01-22T19:06:00.000Z",
+    "dateLocal": "2018-01-22T14:06:00.000"
+   },
+   "arrivalDate": {
+    "dateUtc": "2018-01-22T21:51:00.000Z",
+    "dateLocal": "2018-01-22T16:51:00.000"
+   },
+   "status": "L",
+   "schedule": {
+    "flightType": "J",
+    "serviceClasses": "FY",
+    "restrictions": "",
+    "uplines": [
+     {
+      "fsCode": "DTW",
+      "flightId": 947143454
+     }
+    ],
+    "downlines": []
+   },
+   "operationalTimes": {
+    "publishedDeparture": {
+     "dateUtc": "2018-01-22T19:06:00.000Z",
+     "dateLocal": "2018-01-22T14:06:00.000"
+    },
+    "scheduledGateDeparture": {
+     "dateUtc": "2018-01-22T19:06:00.000Z",
+     "dateLocal": "2018-01-22T14:06:00.000"
+    },
+    "estimatedGateDeparture": {
+     "dateUtc": "2018-01-22T19:03:00.000Z",
+     "dateLocal": "2018-01-22T14:03:00.000"
+    },
+    "actualGateDeparture": {
+     "dateUtc": "2018-01-22T19:03:00.000Z",
+     "dateLocal": "2018-01-22T14:03:00.000"
+    },
+    "flightPlanPlannedDeparture": {
+     "dateUtc": "2018-01-22T19:10:00.000Z",
+     "dateLocal": "2018-01-22T14:10:00.000"
+    },
+    "scheduledRunwayDeparture": {
+     "dateUtc": "2018-01-22T19:10:00.000Z",
+     "dateLocal": "2018-01-22T14:10:00.000"
+    },
+    "estimatedRunwayDeparture": {
+     "dateUtc": "2018-01-22T19:18:00.000Z",
+     "dateLocal": "2018-01-22T14:18:00.000"
+    },
+    "actualRunwayDeparture": {
+     "dateUtc": "2018-01-22T19:18:00.000Z",
+     "dateLocal": "2018-01-22T14:18:00.000"
+    },
+    "publishedArrival": {
+     "dateUtc": "2018-01-22T21:51:00.000Z",
+     "dateLocal": "2018-01-22T16:51:00.000"
+    },
+    "flightPlanPlannedArrival": {
+     "dateUtc": "2018-01-22T21:15:00.000Z",
+     "dateLocal": "2018-01-22T16:15:00.000"
+    },
+    "scheduledGateArrival": {
+     "dateUtc": "2018-01-22T21:51:00.000Z",
+     "dateLocal": "2018-01-22T16:51:00.000"
+    },
+    "estimatedGateArrival": {
+     "dateUtc": "2018-01-22T21:37:00.000Z",
+     "dateLocal": "2018-01-22T16:37:00.000"
+    },
+    "actualGateArrival": {
+     "dateUtc": "2018-01-22T21:37:00.000Z",
+     "dateLocal": "2018-01-22T16:37:00.000"
+    },
+    "scheduledRunwayArrival": {
+     "dateUtc": "2018-01-22T21:15:00.000Z",
+     "dateLocal": "2018-01-22T16:15:00.000"
+    },
+    "estimatedRunwayArrival": {
+     "dateUtc": "2018-01-22T21:28:00.000Z",
+     "dateLocal": "2018-01-22T16:28:00.000"
+    },
+    "actualRunwayArrival": {
+     "dateUtc": "2018-01-22T21:28:00.000Z",
+     "dateLocal": "2018-01-22T16:28:00.000"
+    }
+   },
+   "codeshares": [
+    {
+     "fsCode": "KL",
+     "flightNumber": "5461",
+     "relationship": "L"
+    },
+    {
+     "fsCode": "AF",
+     "flightNumber": "6881",
+     "relationship": "L"
+    },
+    {
+     "fsCode": "VS",
+     "flightNumber": "5750",
+     "relationship": "L"
+    }
+   ],
+   "delays": {
+    "departureRunwayDelayMinutes": 8,
+    "arrivalRunwayDelayMinutes": 13
+   },
+   "flightDurations": {
+    "scheduledBlockMinutes": 165,
+    "blockMinutes": 154,
+    "scheduledAirMinutes": 125,
+    "airMinutes": 130,
+    "scheduledTaxiOutMinutes": 4,
+    "taxiOutMinutes": 15,
+    "scheduledTaxiInMinutes": 36,
+    "taxiInMinutes": 9
+   },
+   "airportResources": {
+    "departureTerminal": "B",
+    "departureGate": "73",
+    "arrivalTerminal": "M",
+    "arrivalGate": "A68"
+   },
+   "flightEquipment": {
+    "scheduledEquipmentIataCode": "753",
+    "actualEquipmentIataCode": "753",
+    "tailNumber": "N588NW"
+   },
+   "irregularOperations": []
+  },
+  {
+   "flightId": 947143540,
+   "carrierFsCode": "DL",
+   "operatingCarrierFsCode": "DL",
+   "primaryCarrierFsCode": "DL",
+   "flightNumber": "1491",
+   "departureAirportFsCode": "MCO",
+   "arrivalAirportFsCode": "ATL",
+   "departureDate": {
+    "dateUtc": "2018-01-22T19:20:00.000Z",
+    "dateLocal": "2018-01-22T14:20:00.000"
+   },
+   "arrivalDate": {
+    "dateUtc": "2018-01-22T20:59:00.000Z",
+    "dateLocal": "2018-01-22T15:59:00.000"
+   },
+   "status": "L",
+   "schedule": {
+    "flightType": "J",
+    "serviceClasses": "FY",
+    "restrictions": "",
+    "uplines": [],
+    "downlines": []
+   },
+   "operationalTimes": {
+    "publishedDeparture": {
+     "dateUtc": "2018-01-22T19:20:00.000Z",
+     "dateLocal": "2018-01-22T14:20:00.000"
+    },
+    "scheduledGateDeparture": {
+     "dateUtc": "2018-01-22T19:20:00.000Z",
+     "dateLocal": "2018-01-22T14:20:00.000"
+    },
+    "estimatedGateDeparture": {
+     "dateUtc": "2018-01-22T19:16:00.000Z",
+     "dateLocal": "2018-01-22T14:16:00.000"
+    },
+    "actualGateDeparture": {
+     "dateUtc": "2018-01-22T19:16:00.000Z",
+     "dateLocal": "2018-01-22T14:16:00.000"
+    },
+    "flightPlanPlannedDeparture": {
+     "dateUtc": "2018-01-22T19:25:00.000Z",
+     "dateLocal": "2018-01-22T14:25:00.000"
+    },
+    "scheduledRunwayDeparture": {
+     "dateUtc": "2018-01-22T19:25:00.000Z",
+     "dateLocal": "2018-01-22T14:25:00.000"
+    },
+    "estimatedRunwayDeparture": {
+     "dateUtc": "2018-01-22T19:30:00.000Z",
+     "dateLocal": "2018-01-22T14:30:00.000"
+    },
+    "actualRunwayDeparture": {
+     "dateUtc": "2018-01-22T19:30:00.000Z",
+     "dateLocal": "2018-01-22T14:30:00.000"
+    },
+    "publishedArrival": {
+     "dateUtc": "2018-01-22T20:59:00.000Z",
+     "dateLocal": "2018-01-22T15:59:00.000"
+    },
+    "flightPlanPlannedArrival": {
+     "dateUtc": "2018-01-22T20:26:00.000Z",
+     "dateLocal": "2018-01-22T15:26:00.000"
+    },
+    "scheduledGateArrival": {
+     "dateUtc": "2018-01-22T20:59:00.000Z",
+     "dateLocal": "2018-01-22T15:59:00.000"
+    },
+    "estimatedGateArrival": {
+     "dateUtc": "2018-01-22T20:48:00.000Z",
+     "dateLocal": "2018-01-22T15:48:00.000"
+    },
+    "actualGateArrival": {
+     "dateUtc": "2018-01-22T20:48:00.000Z",
+     "dateLocal": "2018-01-22T15:48:00.000"
+    },
+    "scheduledRunwayArrival": {
+     "dateUtc": "2018-01-22T20:26:00.000Z",
+     "dateLocal": "2018-01-22T15:26:00.000"
+    },
+    "estimatedRunwayArrival": {
+     "dateUtc": "2018-01-22T20:37:00.000Z",
+     "dateLocal": "2018-01-22T15:37:00.000"
+    },
+    "actualRunwayArrival": {
+     "dateUtc": "2018-01-22T20:37:00.000Z",
+     "dateLocal": "2018-01-22T15:37:00.000"
+    }
+   },
+   "codeshares": [
+    {
+     "fsCode": "VS",
+     "flightNumber": "5202",
+     "relationship": "L"
+    },
+    {
+     "fsCode": "AM",
+     "flightNumber": "4433",
+     "relationship": "L"
+    },
+    {
+     "fsCode": "KL",
+     "flightNumber": "7119",
+     "relationship": "L"
+    },
+    {
+     "fsCode": "AF",
+     "flightNumber": "9039",
+     "relationship": "L"
+    }
+   ],
+   "delays": {
+    "departureRunwayDelayMinutes": 5,
+    "arrivalRunwayDelayMinutes": 11
+   },
+   "flightDurations": {
+    "scheduledBlockMinutes": 99,
+    "blockMinutes": 92,
+    "scheduledAirMinutes": 61,
+    "airMinutes": 67,
+    "scheduledTaxiOutMinutes": 5,
+    "taxiOutMinutes": 14,
+    "scheduledTaxiInMinutes": 33,
+    "taxiInMinutes": 11
+   },
+   "airportResources": {
+    "departureTerminal": "B",
+    "departureGate": "72",
+    "arrivalTerminal": "S",
+    "arrivalGate": "A24",
+    "baggage": "8"
+   },
+   "flightEquipment": {
+    "scheduledEquipmentIataCode": "757",
+    "actualEquipmentIataCode": "75D",
+    "tailNumber": "N556NW"
+   },
+   "irregularOperations": []
+  },
+  {
+   "flightId": 947143937,
+   "carrierFsCode": "DL",
+   "operatingCarrierFsCode": "DL",
+   "primaryCarrierFsCode": "DL",
+   "flightNumber": "1787",
+   "departureAirportFsCode": "MCO",
+   "arrivalAirportFsCode": "MSP",
+   "departureDate": {
+    "dateUtc": "2018-01-22T19:22:00.000Z",
+    "dateLocal": "2018-01-22T14:22:00.000"
+   },
+   "arrivalDate": {
+    "dateUtc": "2018-01-22T23:00:00.000Z",
+    "dateLocal": "2018-01-22T17:00:00.000"
+   },
+   "status": "C",
+   "schedule": {
+    "flightType": "J",
+    "serviceClasses": "FY",
+    "restrictions": "",
+    "uplines": [
+     {
+      "fsCode": "MSP",
+      "flightId": 947143916
+     }
+    ],
+    "downlines": []
+   },
+   "operationalTimes": {
+    "publishedDeparture": {
+     "dateUtc": "2018-01-22T19:22:00.000Z",
+     "dateLocal": "2018-01-22T14:22:00.000"
+    },
+    "scheduledGateDeparture": {
+     "dateUtc": "2018-01-22T19:22:00.000Z",
+     "dateLocal": "2018-01-22T14:22:00.000"
+    },
+    "estimatedGateDeparture": {
+     "dateUtc": "2018-01-22T23:00:00.000Z",
+     "dateLocal": "2018-01-22T18:00:00.000"
+    },
+    "flightPlanPlannedDeparture": {
+     "dateUtc": "2018-01-22T20:52:00.000Z",
+     "dateLocal": "2018-01-22T15:52:00.000"
+    },
+    "scheduledRunwayDeparture": {
+     "dateUtc": "2018-01-22T20:52:00.000Z",
+     "dateLocal": "2018-01-22T15:52:00.000"
+    },
+    "estimatedRunwayDeparture": {
+     "dateUtc": "2018-01-22T23:24:00.000Z",
+     "dateLocal": "2018-01-22T18:24:00.000"
+    },
+    "publishedArrival": {
+     "dateUtc": "2018-01-22T23:00:00.000Z",
+     "dateLocal": "2018-01-22T17:00:00.000"
+    },
+    "flightPlanPlannedArrival": {
+     "dateUtc": "2018-01-23T00:10:00.000Z",
+     "dateLocal": "2018-01-22T18:10:00.000"
+    },
+    "scheduledGateArrival": {
+     "dateUtc": "2018-01-22T23:00:00.000Z",
+     "dateLocal": "2018-01-22T17:00:00.000"
+    },
+    "estimatedGateArrival": {
+     "dateUtc": "2018-01-23T02:26:00.000Z",
+     "dateLocal": "2018-01-22T20:26:00.000"
+    },
+    "scheduledRunwayArrival": {
+     "dateUtc": "2018-01-23T00:10:00.000Z",
+     "dateLocal": "2018-01-22T18:10:00.000"
+    },
+    "estimatedRunwayArrival": {
+     "dateUtc": "2018-01-23T02:21:00.000Z",
+     "dateLocal": "2018-01-22T20:21:00.000"
+    }
+   },
+   "codeshares": [
+    {
+     "fsCode": "KL",
+     "flightNumber": "5831",
+     "relationship": "L"
+    },
+    {
+     "fsCode": "VS",
+     "flightNumber": "3433",
+     "relationship": "L"
+    }
+   ],
+   "delays": {
+    "departureGateDelayMinutes": 218,
+    "departureRunwayDelayMinutes": 152,
+    "arrivalGateDelayMinutes": 206,
+    "arrivalRunwayDelayMinutes": 131
+   },
+   "flightDurations": {
+    "scheduledBlockMinutes": 218,
+    "scheduledAirMinutes": 198,
+    "scheduledTaxiOutMinutes": 90
+   },
+   "airportResources": {
+    "departureTerminal": "B",
+    "departureGate": "78",
+    "arrivalTerminal": "1",
+    "arrivalGate": "G14",
+    "baggage": "3"
+   },
+   "flightEquipment": {
+    "scheduledEquipmentIataCode": "753",
+    "actualEquipmentIataCode": "753",
+    "tailNumber": "N596NW"
+   },
+   "irregularOperations": [
+    {
+     "type": "CANCELLATION",
+     "dateUtc": "2018-01-22T20:18:40.625Z"
+    }
+   ]
+  },
+  {
+   "flightId": 947147852,
+   "carrierFsCode": "DL",
+   "operatingCarrierFsCode": "DL",
+   "primaryCarrierFsCode": "DL",
+   "flightNumber": "72",
+   "departureAirportFsCode": "MCO",
+   "arrivalAirportFsCode": "ATL",
+   "departureDate": {
+    "dateUtc": "2018-01-22T20:20:00.000Z",
+    "dateLocal": "2018-01-22T15:20:00.000"
+   },
+   "arrivalDate": {
+    "dateUtc": "2018-01-22T22:00:00.000Z",
+    "dateLocal": "2018-01-22T17:00:00.000"
+   },
+   "status": "L",
+   "schedule": {
+    "flightType": "J",
+    "serviceClasses": "JY",
+    "restrictions": "",
+    "uplines": [],
+    "downlines": [
+     {
+      "fsCode": "AMS",
+      "flightId": 947147884
+     }
+    ]
+   },
+   "operationalTimes": {
+    "publishedDeparture": {
+     "dateUtc": "2018-01-22T20:20:00.000Z",
+     "dateLocal": "2018-01-22T15:20:00.000"
+    },
+    "scheduledGateDeparture": {
+     "dateUtc": "2018-01-22T20:20:00.000Z",
+     "dateLocal": "2018-01-22T15:20:00.000"
+    },
+    "estimatedGateDeparture": {
+     "dateUtc": "2018-01-22T20:17:00.000Z",
+     "dateLocal": "2018-01-22T15:17:00.000"
+    },
+    "actualGateDeparture": {
+     "dateUtc": "2018-01-22T20:17:00.000Z",
+     "dateLocal": "2018-01-22T15:17:00.000"
+    },
+    "flightPlanPlannedDeparture": {
+     "dateUtc": "2018-01-22T20:22:00.000Z",
+     "dateLocal": "2018-01-22T15:22:00.000"
+    },
+    "scheduledRunwayDeparture": {
+     "dateUtc": "2018-01-22T20:22:00.000Z",
+     "dateLocal": "2018-01-22T15:22:00.000"
+    },
+    "estimatedRunwayDeparture": {
+     "dateUtc": "2018-01-22T20:30:00.000Z",
+     "dateLocal": "2018-01-22T15:30:00.000"
+    },
+    "actualRunwayDeparture": {
+     "dateUtc": "2018-01-22T20:30:00.000Z",
+     "dateLocal": "2018-01-22T15:30:00.000"
+    },
+    "publishedArrival": {
+     "dateUtc": "2018-01-22T22:00:00.000Z",
+     "dateLocal": "2018-01-22T17:00:00.000"
+    },
+    "flightPlanPlannedArrival": {
+     "dateUtc": "2018-01-22T21:23:00.000Z",
+     "dateLocal": "2018-01-22T16:23:00.000"
+    },
+    "scheduledGateArrival": {
+     "dateUtc": "2018-01-22T22:00:00.000Z",
+     "dateLocal": "2018-01-22T17:00:00.000"
+    },
+    "estimatedGateArrival": {
+     "dateUtc": "2018-01-22T21:48:00.000Z",
+     "dateLocal": "2018-01-22T16:48:00.000"
+    },
+    "actualGateArrival": {
+     "dateUtc": "2018-01-22T21:48:00.000Z",
+     "dateLocal": "2018-01-22T16:48:00.000"
+    },
+    "scheduledRunwayArrival": {
+     "dateUtc": "2018-01-22T21:23:00.000Z",
+     "dateLocal": "2018-01-22T16:23:00.000"
+    },
+    "estimatedRunwayArrival": {
+     "dateUtc": "2018-01-22T21:37:00.000Z",
+     "dateLocal": "2018-01-22T16:37:00.000"
+    },
+    "actualRunwayArrival": {
+     "dateUtc": "2018-01-22T21:37:00.000Z",
+     "dateLocal": "2018-01-22T16:37:00.000"
+    }
+   },
+   "codeshares": [
+    {
+     "fsCode": "9W",
+     "flightNumber": "8128",
+     "relationship": "L"
+    },
+    {
+     "fsCode": "G3",
+     "flightNumber": "8041",
+     "relationship": "L"
+    },
+    {
+     "fsCode": "VS",
+     "flightNumber": "4389",
+     "relationship": "L"
+    },
+    {
+     "fsCode": "AF",
+     "flightNumber": "3598",
+     "relationship": "L"
+    },
+    {
+     "fsCode": "AZ",
+     "flightNumber": "3448",
+     "relationship": "L"
+    },
+    {
+     "fsCode": "AM",
+     "flightNumber": "5297",
+     "relationship": "L"
+    }
+   ],
+   "delays": {
+    "departureRunwayDelayMinutes": 8,
+    "arrivalRunwayDelayMinutes": 14
+   },
+   "flightDurations": {
+    "scheduledBlockMinutes": 100,
+    "blockMinutes": 91,
+    "scheduledAirMinutes": 61,
+    "airMinutes": 67,
+    "scheduledTaxiOutMinutes": 2,
+    "taxiOutMinutes": 13,
+    "scheduledTaxiInMinutes": 37,
+    "taxiInMinutes": 11
+   },
+   "airportResources": {
+    "departureTerminal": "B",
+    "departureGate": "73",
+    "arrivalTerminal": "S",
+    "arrivalGate": "F3",
+    "baggage": "8"
+   },
+   "flightEquipment": {
+    "scheduledEquipmentIataCode": "757",
+    "actualEquipmentIataCode": "75D",
+    "tailNumber": "N689DL"
+   },
+   "irregularOperations": []
+  },
+  {
+   "flightId": 947143997,
+   "carrierFsCode": "DL",
+   "operatingCarrierFsCode": "DL",
+   "primaryCarrierFsCode": "DL",
+   "flightNumber": "1839",
+   "departureAirportFsCode": "MCO",
+   "arrivalAirportFsCode": "LGA",
+   "departureDate": {
+    "dateUtc": "2018-01-22T20:30:00.000Z",
+    "dateLocal": "2018-01-22T15:30:00.000"
+   },
+   "arrivalDate": {
+    "dateUtc": "2018-01-22T23:11:00.000Z",
+    "dateLocal": "2018-01-22T18:11:00.000"
+   },
+   "status": "L",
+   "schedule": {
+    "flightType": "J",
+    "serviceClasses": "FY",
+    "restrictions": "",
+    "uplines": [],
+    "downlines": []
+   },
+   "operationalTimes": {
+    "publishedDeparture": {
+     "dateUtc": "2018-01-22T20:30:00.000Z",
+     "dateLocal": "2018-01-22T15:30:00.000"
+    },
+    "scheduledGateDeparture": {
+     "dateUtc": "2018-01-22T20:30:00.000Z",
+     "dateLocal": "2018-01-22T15:30:00.000"
+    },
+    "estimatedGateDeparture": {
+     "dateUtc": "2018-01-22T20:29:00.000Z",
+     "dateLocal": "2018-01-22T15:29:00.000"
+    },
+    "actualGateDeparture": {
+     "dateUtc": "2018-01-22T20:29:00.000Z",
+     "dateLocal": "2018-01-22T15:29:00.000"
+    },
+    "flightPlanPlannedDeparture": {
+     "dateUtc": "2018-01-22T20:36:00.000Z",
+     "dateLocal": "2018-01-22T15:36:00.000"
+    },
+    "scheduledRunwayDeparture": {
+     "dateUtc": "2018-01-22T20:36:00.000Z",
+     "dateLocal": "2018-01-22T15:36:00.000"
+    },
+    "estimatedRunwayDeparture": {
+     "dateUtc": "2018-01-22T20:42:00.000Z",
+     "dateLocal": "2018-01-22T15:42:00.000"
+    },
+    "actualRunwayDeparture": {
+     "dateUtc": "2018-01-22T20:42:00.000Z",
+     "dateLocal": "2018-01-22T15:42:00.000"
+    },
+    "publishedArrival": {
+     "dateUtc": "2018-01-22T23:11:00.000Z",
+     "dateLocal": "2018-01-22T18:11:00.000"
+    },
+    "flightPlanPlannedArrival": {
+     "dateUtc": "2018-01-22T22:32:00.000Z",
+     "dateLocal": "2018-01-22T17:32:00.000"
+    },
+    "scheduledGateArrival": {
+     "dateUtc": "2018-01-22T23:11:00.000Z",
+     "dateLocal": "2018-01-22T18:11:00.000"
+    },
+    "estimatedGateArrival": {
+     "dateUtc": "2018-01-22T22:47:00.000Z",
+     "dateLocal": "2018-01-22T17:47:00.000"
+    },
+    "actualGateArrival": {
+     "dateUtc": "2018-01-22T22:47:00.000Z",
+     "dateLocal": "2018-01-22T17:47:00.000"
+    },
+    "scheduledRunwayArrival": {
+     "dateUtc": "2018-01-22T22:32:00.000Z",
+     "dateLocal": "2018-01-22T17:32:00.000"
+    },
+    "estimatedRunwayArrival": {
+     "dateUtc": "2018-01-22T22:38:00.000Z",
+     "dateLocal": "2018-01-22T17:38:00.000"
+    },
+    "actualRunwayArrival": {
+     "dateUtc": "2018-01-22T22:38:00.000Z",
+     "dateLocal": "2018-01-22T17:38:00.000"
+    }
+   },
+   "codeshares": [
+    {
+     "fsCode": "WS",
+     "flightNumber": "6675",
+     "relationship": "L"
+    }
+   ],
+   "delays": {
+    "departureRunwayDelayMinutes": 6,
+    "arrivalRunwayDelayMinutes": 6
+   },
+   "flightDurations": {
+    "scheduledBlockMinutes": 161,
+    "blockMinutes": 138,
+    "scheduledAirMinutes": 116,
+    "airMinutes": 116,
+    "scheduledTaxiOutMinutes": 6,
+    "taxiOutMinutes": 13,
+    "scheduledTaxiInMinutes": 39,
+    "taxiInMinutes": 9
+   },
+   "airportResources": {
+    "departureTerminal": "B",
+    "departureGate": "77",
+    "arrivalTerminal": "D",
+    "arrivalGate": "D4"
+   },
+   "flightEquipment": {
+    "scheduledEquipmentIataCode": "320",
+    "actualEquipmentIataCode": "32S",
+    "tailNumber": "N322US"
+   },
+   "irregularOperations": []
+  },
+  {
+   "flightId": 947144146,
+   "carrierFsCode": "DL",
+   "operatingCarrierFsCode": "DL",
+   "primaryCarrierFsCode": "DL",
+   "flightNumber": "1948",
+   "departureAirportFsCode": "MCO",
+   "arrivalAirportFsCode": "JFK",
+   "departureDate": {
+    "dateUtc": "2018-01-22T20:45:00.000Z",
+    "dateLocal": "2018-01-22T15:45:00.000"
+   },
+   "arrivalDate": {
+    "dateUtc": "2018-01-22T23:29:00.000Z",
+    "dateLocal": "2018-01-22T18:29:00.000"
+   },
+   "status": "L",
+   "schedule": {
+    "flightType": "J",
+    "serviceClasses": "FY",
+    "restrictions": "",
+    "uplines": [],
+    "downlines": []
+   },
+   "operationalTimes": {
+    "publishedDeparture": {
+     "dateUtc": "2018-01-22T20:45:00.000Z",
+     "dateLocal": "2018-01-22T15:45:00.000"
+    },
+    "scheduledGateDeparture": {
+     "dateUtc": "2018-01-22T20:45:00.000Z",
+     "dateLocal": "2018-01-22T15:45:00.000"
+    },
+    "estimatedGateDeparture": {
+     "dateUtc": "2018-01-22T20:40:00.000Z",
+     "dateLocal": "2018-01-22T15:40:00.000"
+    },
+    "actualGateDeparture": {
+     "dateUtc": "2018-01-22T20:40:00.000Z",
+     "dateLocal": "2018-01-22T15:40:00.000"
+    },
+    "flightPlanPlannedDeparture": {
+     "dateUtc": "2018-01-22T20:52:00.000Z",
+     "dateLocal": "2018-01-22T15:52:00.000"
+    },
+    "scheduledRunwayDeparture": {
+     "dateUtc": "2018-01-22T20:52:00.000Z",
+     "dateLocal": "2018-01-22T15:52:00.000"
+    },
+    "estimatedRunwayDeparture": {
+     "dateUtc": "2018-01-22T20:52:00.000Z",
+     "dateLocal": "2018-01-22T15:52:00.000"
+    },
+    "actualRunwayDeparture": {
+     "dateUtc": "2018-01-22T20:52:00.000Z",
+     "dateLocal": "2018-01-22T15:52:00.000"
+    },
+    "publishedArrival": {
+     "dateUtc": "2018-01-22T23:29:00.000Z",
+     "dateLocal": "2018-01-22T18:29:00.000"
+    },
+    "flightPlanPlannedArrival": {
+     "dateUtc": "2018-01-22T22:47:00.000Z",
+     "dateLocal": "2018-01-22T17:47:00.000"
+    },
+    "scheduledGateArrival": {
+     "dateUtc": "2018-01-22T23:29:00.000Z",
+     "dateLocal": "2018-01-22T18:29:00.000"
+    },
+    "estimatedGateArrival": {
+     "dateUtc": "2018-01-22T23:01:00.000Z",
+     "dateLocal": "2018-01-22T18:01:00.000"
+    },
+    "actualGateArrival": {
+     "dateUtc": "2018-01-22T23:01:00.000Z",
+     "dateLocal": "2018-01-22T18:01:00.000"
+    },
+    "scheduledRunwayArrival": {
+     "dateUtc": "2018-01-22T22:47:00.000Z",
+     "dateLocal": "2018-01-22T17:47:00.000"
+    },
+    "estimatedRunwayArrival": {
+     "dateUtc": "2018-01-22T22:44:00.000Z",
+     "dateLocal": "2018-01-22T17:44:00.000"
+    },
+    "actualRunwayArrival": {
+     "dateUtc": "2018-01-22T22:44:00.000Z",
+     "dateLocal": "2018-01-22T17:44:00.000"
+    }
+   },
+   "codeshares": [
+    {
+     "fsCode": "9W",
+     "flightNumber": "8273",
+     "relationship": "L"
+    },
+    {
+     "fsCode": "KL",
+     "flightNumber": "5157",
+     "relationship": "L"
+    },
+    {
+     "fsCode": "WS",
+     "flightNumber": "6863",
+     "relationship": "L"
+    },
+    {
+     "fsCode": "AZ",
+     "flightNumber": "3340",
+     "relationship": "L"
+    },
+    {
+     "fsCode": "G3",
+     "flightNumber": "8095",
+     "relationship": "L"
+    },
+    {
+     "fsCode": "VS",
+     "flightNumber": "4754",
+     "relationship": "L"
+    },
+    {
+     "fsCode": "UX",
+     "flightNumber": "3312",
+     "relationship": "L"
+    }
+   ],
+   "delays": {},
+   "flightDurations": {
+    "scheduledBlockMinutes": 164,
+    "blockMinutes": 141,
+    "scheduledAirMinutes": 115,
+    "airMinutes": 112,
+    "scheduledTaxiOutMinutes": 7,
+    "taxiOutMinutes": 12,
+    "scheduledTaxiInMinutes": 42,
+    "taxiInMinutes": 17
+   },
+   "airportResources": {
+    "departureTerminal": "B",
+    "departureGate": "76",
+    "arrivalTerminal": "2",
+    "arrivalGate": "C70",
+    "baggage": "F"
+   },
+   "flightEquipment": {
+    "scheduledEquipmentIataCode": "320",
+    "actualEquipmentIataCode": "32S",
+    "tailNumber": "N361NW"
+   },
+   "irregularOperations": []
+  },
+  {
+   "flightId": 947144949,
+   "carrierFsCode": "DL",
+   "operatingCarrierFsCode": "DL",
+   "primaryCarrierFsCode": "DL",
+   "flightNumber": "2517",
+   "departureAirportFsCode": "MCO",
+   "arrivalAirportFsCode": "DTW",
+   "departureDate": {
+    "dateUtc": "2018-01-22T21:06:00.000Z",
+    "dateLocal": "2018-01-22T16:06:00.000"
+   },
+   "arrivalDate": {
+    "dateUtc": "2018-01-22T23:50:00.000Z",
+    "dateLocal": "2018-01-22T18:50:00.000"
+   },
+   "status": "L",
+   "schedule": {
+    "flightType": "J",
+    "serviceClasses": "FY",
+    "restrictions": "",
+    "uplines": [
+     {
+      "fsCode": "DTW",
+      "flightId": 947144935
+     }
+    ],
+    "downlines": []
+   },
+   "operationalTimes": {
+    "publishedDeparture": {
+     "dateUtc": "2018-01-22T21:06:00.000Z",
+     "dateLocal": "2018-01-22T16:06:00.000"
+    },
+    "scheduledGateDeparture": {
+     "dateUtc": "2018-01-22T21:06:00.000Z",
+     "dateLocal": "2018-01-22T16:06:00.000"
+    },
+    "estimatedGateDeparture": {
+     "dateUtc": "2018-01-22T21:22:00.000Z",
+     "dateLocal": "2018-01-22T16:22:00.000"
+    },
+    "actualGateDeparture": {
+     "dateUtc": "2018-01-22T21:22:00.000Z",
+     "dateLocal": "2018-01-22T16:22:00.000"
+    },
+    "flightPlanPlannedDeparture": {
+     "dateUtc": "2018-01-22T21:32:00.000Z",
+     "dateLocal": "2018-01-22T16:32:00.000"
+    },
+    "scheduledRunwayDeparture": {
+     "dateUtc": "2018-01-22T21:32:00.000Z",
+     "dateLocal": "2018-01-22T16:32:00.000"
+    },
+    "estimatedRunwayDeparture": {
+     "dateUtc": "2018-01-22T21:35:00.000Z",
+     "dateLocal": "2018-01-22T16:35:00.000"
+    },
+    "actualRunwayDeparture": {
+     "dateUtc": "2018-01-22T21:35:00.000Z",
+     "dateLocal": "2018-01-22T16:35:00.000"
+    },
+    "publishedArrival": {
+     "dateUtc": "2018-01-22T23:50:00.000Z",
+     "dateLocal": "2018-01-22T18:50:00.000"
+    },
+    "flightPlanPlannedArrival": {
+     "dateUtc": "2018-01-22T23:54:00.000Z",
+     "dateLocal": "2018-01-22T18:54:00.000"
+    },
+    "scheduledGateArrival": {
+     "dateUtc": "2018-01-22T23:50:00.000Z",
+     "dateLocal": "2018-01-22T18:50:00.000"
+    },
+    "estimatedGateArrival": {
+     "dateUtc": "2018-01-22T23:51:00.000Z",
+     "dateLocal": "2018-01-22T18:51:00.000"
+    },
+    "actualGateArrival": {
+     "dateUtc": "2018-01-22T23:51:00.000Z",
+     "dateLocal": "2018-01-22T18:51:00.000"
+    },
+    "scheduledRunwayArrival": {
+     "dateUtc": "2018-01-22T23:54:00.000Z",
+     "dateLocal": "2018-01-22T18:54:00.000"
+    },
+    "estimatedRunwayArrival": {
+     "dateUtc": "2018-01-22T23:48:00.000Z",
+     "dateLocal": "2018-01-22T18:48:00.000"
+    },
+    "actualRunwayArrival": {
+     "dateUtc": "2018-01-22T23:48:00.000Z",
+     "dateLocal": "2018-01-22T18:48:00.000"
+    }
+   },
+   "codeshares": [
+    {
+     "fsCode": "AF",
+     "flightNumber": "2307",
+     "relationship": "L"
+    },
+    {
+     "fsCode": "KL",
+     "flightNumber": "6363",
+     "relationship": "L"
+    }
+   ],
+   "delays": {
+    "departureGateDelayMinutes": 16,
+    "departureRunwayDelayMinutes": 3,
+    "arrivalGateDelayMinutes": 1
+   },
+   "flightDurations": {
+    "scheduledBlockMinutes": 164,
+    "blockMinutes": 149,
+    "scheduledAirMinutes": 142,
+    "airMinutes": 133,
+    "scheduledTaxiOutMinutes": 26,
+    "taxiOutMinutes": 13,
+    "taxiInMinutes": 3
+   },
+   "airportResources": {
+    "departureTerminal": "B",
+    "departureGate": "74",
+    "arrivalTerminal": "M",
+    "arrivalGate": "A78"
+   },
+   "flightEquipment": {
+    "scheduledEquipmentIataCode": "739",
+    "actualEquipmentIataCode": "32S",
+    "tailNumber": "N363NW"
+   },
+   "irregularOperations": []
+  },
+  {
+   "flightId": 947143832,
+   "carrierFsCode": "DL",
+   "operatingCarrierFsCode": "DL",
+   "primaryCarrierFsCode": "DL",
+   "flightNumber": "1714",
+   "departureAirportFsCode": "MCO",
+   "arrivalAirportFsCode": "CVG",
+   "departureDate": {
+    "dateUtc": "2018-01-22T21:20:00.000Z",
+    "dateLocal": "2018-01-22T16:20:00.000"
+   },
+   "arrivalDate": {
+    "dateUtc": "2018-01-22T23:35:00.000Z",
+    "dateLocal": "2018-01-22T18:35:00.000"
+   },
+   "status": "L",
+   "schedule": {
+    "flightType": "J",
+    "serviceClasses": "FY",
+    "restrictions": "",
+    "uplines": [],
+    "downlines": []
+   },
+   "operationalTimes": {
+    "publishedDeparture": {
+     "dateUtc": "2018-01-22T21:20:00.000Z",
+     "dateLocal": "2018-01-22T16:20:00.000"
+    },
+    "scheduledGateDeparture": {
+     "dateUtc": "2018-01-22T21:20:00.000Z",
+     "dateLocal": "2018-01-22T16:20:00.000"
+    },
+    "estimatedGateDeparture": {
+     "dateUtc": "2018-01-22T21:12:00.000Z",
+     "dateLocal": "2018-01-22T16:12:00.000"
+    },
+    "actualGateDeparture": {
+     "dateUtc": "2018-01-22T21:12:00.000Z",
+     "dateLocal": "2018-01-22T16:12:00.000"
+    },
+    "flightPlanPlannedDeparture": {
+     "dateUtc": "2018-01-22T21:24:00.000Z",
+     "dateLocal": "2018-01-22T16:24:00.000"
+    },
+    "scheduledRunwayDeparture": {
+     "dateUtc": "2018-01-22T21:24:00.000Z",
+     "dateLocal": "2018-01-22T16:24:00.000"
+    },
+    "estimatedRunwayDeparture": {
+     "dateUtc": "2018-01-22T22:05:00.000Z",
+     "dateLocal": "2018-01-22T17:05:00.000"
+    },
+    "actualRunwayDeparture": {
+     "dateUtc": "2018-01-22T22:05:00.000Z",
+     "dateLocal": "2018-01-22T17:05:00.000"
+    },
+    "publishedArrival": {
+     "dateUtc": "2018-01-22T23:35:00.000Z",
+     "dateLocal": "2018-01-22T18:35:00.000"
+    },
+    "flightPlanPlannedArrival": {
+     "dateUtc": "2018-01-22T23:14:00.000Z",
+     "dateLocal": "2018-01-22T18:14:00.000"
+    },
+    "scheduledGateArrival": {
+     "dateUtc": "2018-01-22T23:35:00.000Z",
+     "dateLocal": "2018-01-22T18:35:00.000"
+    },
+    "estimatedGateArrival": {
+     "dateUtc": "2018-01-22T23:52:00.000Z",
+     "dateLocal": "2018-01-22T18:52:00.000"
+    },
+    "actualGateArrival": {
+     "dateUtc": "2018-01-22T23:52:00.000Z",
+     "dateLocal": "2018-01-22T18:52:00.000"
+    },
+    "scheduledRunwayArrival": {
+     "dateUtc": "2018-01-22T23:14:00.000Z",
+     "dateLocal": "2018-01-22T18:14:00.000"
+    },
+    "estimatedRunwayArrival": {
+     "dateUtc": "2018-01-22T23:45:00.000Z",
+     "dateLocal": "2018-01-22T18:45:00.000"
+    },
+    "actualRunwayArrival": {
+     "dateUtc": "2018-01-22T23:45:00.000Z",
+     "dateLocal": "2018-01-22T18:45:00.000"
+    }
+   },
+   "codeshares": [],
+   "delays": {
+    "departureRunwayDelayMinutes": 41,
+    "arrivalGateDelayMinutes": 17,
+    "arrivalRunwayDelayMinutes": 31
+   },
+   "flightDurations": {
+    "scheduledBlockMinutes": 135,
+    "blockMinutes": 160,
+    "scheduledAirMinutes": 110,
+    "airMinutes": 100,
+    "scheduledTaxiOutMinutes": 4,
+    "taxiOutMinutes": 53,
+    "scheduledTaxiInMinutes": 21,
+    "taxiInMinutes": 7
+   },
+   "airportResources": {
+    "departureTerminal": "B",
+    "departureGate": "81",
+    "arrivalTerminal": "3",
+    "arrivalGate": "B1",
+    "baggage": "1"
+   },
+   "flightEquipment": {
+    "scheduledEquipmentIataCode": "M88",
+    "actualEquipmentIataCode": "M88",
+    "tailNumber": "N989DL"
+   },
+   "irregularOperations": []
+  },
+  {
+   "flightId": 947143014,
+   "carrierFsCode": "DL",
+   "operatingCarrierFsCode": "DL",
+   "primaryCarrierFsCode": "DL",
+   "flightNumber": "1051",
+   "departureAirportFsCode": "MCO",
+   "arrivalAirportFsCode": "ATL",
+   "departureDate": {
+    "dateUtc": "2018-01-22T21:30:00.000Z",
+    "dateLocal": "2018-01-22T16:30:00.000"
+   },
+   "arrivalDate": {
+    "dateUtc": "2018-01-22T23:14:00.000Z",
+    "dateLocal": "2018-01-22T18:14:00.000"
+   },
+   "status": "L",
+   "schedule": {
+    "flightType": "J",
+    "serviceClasses": "FY",
+    "restrictions": "",
+    "uplines": [
+     {
+      "fsCode": "ATL",
+      "flightId": 947142996
+     }
+    ],
+    "downlines": []
+   },
+   "operationalTimes": {
+    "publishedDeparture": {
+     "dateUtc": "2018-01-22T21:30:00.000Z",
+     "dateLocal": "2018-01-22T16:30:00.000"
+    },
+    "scheduledGateDeparture": {
+     "dateUtc": "2018-01-22T21:30:00.000Z",
+     "dateLocal": "2018-01-22T16:30:00.000"
+    },
+    "estimatedGateDeparture": {
+     "dateUtc": "2018-01-22T21:28:00.000Z",
+     "dateLocal": "2018-01-22T16:28:00.000"
+    },
+    "actualGateDeparture": {
+     "dateUtc": "2018-01-22T21:28:00.000Z",
+     "dateLocal": "2018-01-22T16:28:00.000"
+    },
+    "flightPlanPlannedDeparture": {
+     "dateUtc": "2018-01-22T21:34:00.000Z",
+     "dateLocal": "2018-01-22T16:34:00.000"
+    },
+    "scheduledRunwayDeparture": {
+     "dateUtc": "2018-01-22T21:34:00.000Z",
+     "dateLocal": "2018-01-22T16:34:00.000"
+    },
+    "estimatedRunwayDeparture": {
+     "dateUtc": "2018-01-22T21:41:00.000Z",
+     "dateLocal": "2018-01-22T16:41:00.000"
+    },
+    "actualRunwayDeparture": {
+     "dateUtc": "2018-01-22T21:41:00.000Z",
+     "dateLocal": "2018-01-22T16:41:00.000"
+    },
+    "publishedArrival": {
+     "dateUtc": "2018-01-22T23:14:00.000Z",
+     "dateLocal": "2018-01-22T18:14:00.000"
+    },
+    "flightPlanPlannedArrival": {
+     "dateUtc": "2018-01-22T22:35:00.000Z",
+     "dateLocal": "2018-01-22T17:35:00.000"
+    },
+    "scheduledGateArrival": {
+     "dateUtc": "2018-01-22T23:14:00.000Z",
+     "dateLocal": "2018-01-22T18:14:00.000"
+    },
+    "estimatedGateArrival": {
+     "dateUtc": "2018-01-22T23:03:00.000Z",
+     "dateLocal": "2018-01-22T18:03:00.000"
+    },
+    "actualGateArrival": {
+     "dateUtc": "2018-01-22T23:03:00.000Z",
+     "dateLocal": "2018-01-22T18:03:00.000"
+    },
+    "scheduledRunwayArrival": {
+     "dateUtc": "2018-01-22T22:35:00.000Z",
+     "dateLocal": "2018-01-22T17:35:00.000"
+    },
+    "estimatedRunwayArrival": {
+     "dateUtc": "2018-01-22T22:49:00.000Z",
+     "dateLocal": "2018-01-22T17:49:00.000"
+    },
+    "actualRunwayArrival": {
+     "dateUtc": "2018-01-22T22:49:00.000Z",
+     "dateLocal": "2018-01-22T17:49:00.000"
+    }
+   },
+   "codeshares": [
+    {
+     "fsCode": "AM",
+     "flightNumber": "4369",
+     "relationship": "L"
+    },
+    {
+     "fsCode": "VS",
+     "flightNumber": "5200",
+     "relationship": "L"
+    }
+   ],
+   "delays": {
+    "departureRunwayDelayMinutes": 7,
+    "arrivalRunwayDelayMinutes": 14
+   },
+   "flightDurations": {
+    "scheduledBlockMinutes": 104,
+    "blockMinutes": 95,
+    "scheduledAirMinutes": 61,
+    "airMinutes": 68,
+    "scheduledTaxiOutMinutes": 4,
+    "taxiOutMinutes": 13,
+    "scheduledTaxiInMinutes": 39,
+    "taxiInMinutes": 14
+   },
+   "airportResources": {
+    "departureTerminal": "B",
+    "departureGate": "71",
+    "arrivalTerminal": "S",
+    "arrivalGate": "A24",
+    "baggage": "8"
+   },
+   "flightEquipment": {
+    "scheduledEquipmentIataCode": "757",
+    "actualEquipmentIataCode": "75D",
+    "tailNumber": "N67171"
+   },
+   "irregularOperations": []
+  },
+  {
+   "flightId": 947144988,
+   "carrierFsCode": "DL",
+   "operatingCarrierFsCode": "DL",
+   "primaryCarrierFsCode": "DL",
+   "flightNumber": "2624",
+   "departureAirportFsCode": "MCO",
+   "arrivalAirportFsCode": "SLC",
+   "departureDate": {
+    "dateUtc": "2018-01-22T21:38:00.000Z",
+    "dateLocal": "2018-01-22T16:38:00.000"
+   },
+   "arrivalDate": {
+    "dateUtc": "2018-01-23T02:40:00.000Z",
+    "dateLocal": "2018-01-22T19:40:00.000"
+   },
+   "status": "L",
+   "schedule": {
+    "flightType": "J",
+    "serviceClasses": "FY",
+    "restrictions": "",
+    "uplines": [
+     {
+      "fsCode": "SLC",
+      "flightId": 947144984
+     }
+    ],
+    "downlines": []
+   },
+   "operationalTimes": {
+    "publishedDeparture": {
+     "dateUtc": "2018-01-22T21:38:00.000Z",
+     "dateLocal": "2018-01-22T16:38:00.000"
+    },
+    "scheduledGateDeparture": {
+     "dateUtc": "2018-01-22T21:38:00.000Z",
+     "dateLocal": "2018-01-22T16:38:00.000"
+    },
+    "estimatedGateDeparture": {
+     "dateUtc": "2018-01-22T21:31:00.000Z",
+     "dateLocal": "2018-01-22T16:31:00.000"
+    },
+    "actualGateDeparture": {
+     "dateUtc": "2018-01-22T21:31:00.000Z",
+     "dateLocal": "2018-01-22T16:31:00.000"
+    },
+    "flightPlanPlannedDeparture": {
+     "dateUtc": "2018-01-22T21:42:00.000Z",
+     "dateLocal": "2018-01-22T16:42:00.000"
+    },
+    "scheduledRunwayDeparture": {
+     "dateUtc": "2018-01-22T21:42:00.000Z",
+     "dateLocal": "2018-01-22T16:42:00.000"
+    },
+    "estimatedRunwayDeparture": {
+     "dateUtc": "2018-01-22T21:43:00.000Z",
+     "dateLocal": "2018-01-22T16:43:00.000"
+    },
+    "actualRunwayDeparture": {
+     "dateUtc": "2018-01-22T21:43:00.000Z",
+     "dateLocal": "2018-01-22T16:43:00.000"
+    },
+    "publishedArrival": {
+     "dateUtc": "2018-01-23T02:40:00.000Z",
+     "dateLocal": "2018-01-22T19:40:00.000"
+    },
+    "flightPlanPlannedArrival": {
+     "dateUtc": "2018-01-23T02:00:00.000Z",
+     "dateLocal": "2018-01-22T19:00:00.000"
+    },
+    "scheduledGateArrival": {
+     "dateUtc": "2018-01-23T02:40:00.000Z",
+     "dateLocal": "2018-01-22T19:40:00.000"
+    },
+    "estimatedGateArrival": {
+     "dateUtc": "2018-01-23T02:38:00.000Z",
+     "dateLocal": "2018-01-22T19:38:00.000"
+    },
+    "actualGateArrival": {
+     "dateUtc": "2018-01-23T02:38:00.000Z",
+     "dateLocal": "2018-01-22T19:38:00.000"
+    },
+    "scheduledRunwayArrival": {
+     "dateUtc": "2018-01-23T02:00:00.000Z",
+     "dateLocal": "2018-01-22T19:00:00.000"
+    },
+    "estimatedRunwayArrival": {
+     "dateUtc": "2018-01-23T02:25:00.000Z",
+     "dateLocal": "2018-01-22T19:25:00.000"
+    },
+    "actualRunwayArrival": {
+     "dateUtc": "2018-01-23T02:25:00.000Z",
+     "dateLocal": "2018-01-22T19:25:00.000"
+    }
+   },
+   "codeshares": [],
+   "delays": {
+    "departureRunwayDelayMinutes": 1,
+    "arrivalRunwayDelayMinutes": 25
+   },
+   "flightDurations": {
+    "scheduledBlockMinutes": 302,
+    "blockMinutes": 307,
+    "scheduledAirMinutes": 258,
+    "airMinutes": 282,
+    "scheduledTaxiOutMinutes": 4,
+    "taxiOutMinutes": 12,
+    "scheduledTaxiInMinutes": 40,
+    "taxiInMinutes": 13
+   },
+   "airportResources": {
+    "departureTerminal": "B",
+    "departureGate": "72",
+    "arrivalTerminal": "2",
+    "arrivalGate": "D12"
+   },
+   "flightEquipment": {
+    "scheduledEquipmentIataCode": "738",
+    "actualEquipmentIataCode": "738",
+    "tailNumber": "N392DA"
+   },
+   "irregularOperations": []
+  },
+  {
+   "flightId": 947143729,
+   "carrierFsCode": "DL",
+   "operatingCarrierFsCode": "DL",
+   "primaryCarrierFsCode": "DL",
+   "flightNumber": "1652",
+   "departureAirportFsCode": "MCO",
+   "arrivalAirportFsCode": "RDU",
+   "departureDate": {
+    "dateUtc": "2018-01-22T21:40:00.000Z",
+    "dateLocal": "2018-01-22T16:40:00.000"
+   },
+   "arrivalDate": {
+    "dateUtc": "2018-01-22T23:26:00.000Z",
+    "dateLocal": "2018-01-22T18:26:00.000"
+   },
+   "status": "L",
+   "schedule": {
+    "flightType": "J",
+    "serviceClasses": "FY",
+    "restrictions": "",
+    "uplines": [],
+    "downlines": []
+   },
+   "operationalTimes": {
+    "publishedDeparture": {
+     "dateUtc": "2018-01-22T21:40:00.000Z",
+     "dateLocal": "2018-01-22T16:40:00.000"
+    },
+    "scheduledGateDeparture": {
+     "dateUtc": "2018-01-22T21:40:00.000Z",
+     "dateLocal": "2018-01-22T16:40:00.000"
+    },
+    "estimatedGateDeparture": {
+     "dateUtc": "2018-01-22T21:36:00.000Z",
+     "dateLocal": "2018-01-22T16:36:00.000"
+    },
+    "actualGateDeparture": {
+     "dateUtc": "2018-01-22T21:36:00.000Z",
+     "dateLocal": "2018-01-22T16:36:00.000"
+    },
+    "flightPlanPlannedDeparture": {
+     "dateUtc": "2018-01-22T21:50:00.000Z",
+     "dateLocal": "2018-01-22T16:50:00.000"
+    },
+    "scheduledRunwayDeparture": {
+     "dateUtc": "2018-01-22T21:50:00.000Z",
+     "dateLocal": "2018-01-22T16:50:00.000"
+    },
+    "estimatedRunwayDeparture": {
+     "dateUtc": "2018-01-22T21:45:00.000Z",
+     "dateLocal": "2018-01-22T16:45:00.000"
+    },
+    "actualRunwayDeparture": {
+     "dateUtc": "2018-01-22T21:45:00.000Z",
+     "dateLocal": "2018-01-22T16:45:00.000"
+    },
+    "publishedArrival": {
+     "dateUtc": "2018-01-22T23:26:00.000Z",
+     "dateLocal": "2018-01-22T18:26:00.000"
+    },
+    "flightPlanPlannedArrival": {
+     "dateUtc": "2018-01-22T23:04:00.000Z",
+     "dateLocal": "2018-01-22T18:04:00.000"
+    },
+    "scheduledGateArrival": {
+     "dateUtc": "2018-01-22T23:26:00.000Z",
+     "dateLocal": "2018-01-22T18:26:00.000"
+    },
+    "estimatedGateArrival": {
+     "dateUtc": "2018-01-22T23:05:00.000Z",
+     "dateLocal": "2018-01-22T18:05:00.000"
+    },
+    "actualGateArrival": {
+     "dateUtc": "2018-01-22T23:05:00.000Z",
+     "dateLocal": "2018-01-22T18:05:00.000"
+    },
+    "scheduledRunwayArrival": {
+     "dateUtc": "2018-01-22T23:04:00.000Z",
+     "dateLocal": "2018-01-22T18:04:00.000"
+    },
+    "estimatedRunwayArrival": {
+     "dateUtc": "2018-01-22T23:02:00.000Z",
+     "dateLocal": "2018-01-22T18:02:00.000"
+    },
+    "actualRunwayArrival": {
+     "dateUtc": "2018-01-22T23:02:00.000Z",
+     "dateLocal": "2018-01-22T18:02:00.000"
+    }
+   },
+   "codeshares": [],
+   "delays": {},
+   "flightDurations": {
+    "scheduledBlockMinutes": 106,
+    "blockMinutes": 89,
+    "scheduledAirMinutes": 74,
+    "airMinutes": 77,
+    "scheduledTaxiOutMinutes": 10,
+    "taxiOutMinutes": 9,
+    "scheduledTaxiInMinutes": 22,
+    "taxiInMinutes": 3
+   },
+   "airportResources": {
+    "departureTerminal": "B",
+    "departureGate": "73",
+    "arrivalTerminal": "2",
+    "arrivalGate": "D1"
+   },
+   "flightEquipment": {
+    "scheduledEquipmentIataCode": "717",
+    "actualEquipmentIataCode": "717",
+    "tailNumber": "N950AT"
+   },
+   "irregularOperations": []
+  },
+  {
+   "flightId": 947145028,
+   "carrierFsCode": "DL",
+   "operatingCarrierFsCode": "DL",
+   "primaryCarrierFsCode": "DL",
+   "flightNumber": "2628",
+   "departureAirportFsCode": "MCO",
+   "arrivalAirportFsCode": "JFK",
+   "departureDate": {
+    "dateUtc": "2018-01-22T22:24:00.000Z",
+    "dateLocal": "2018-01-22T17:24:00.000"
+   },
+   "arrivalDate": {
+    "dateUtc": "2018-01-23T01:12:00.000Z",
+    "dateLocal": "2018-01-22T20:12:00.000"
+   },
+   "status": "L",
+   "schedule": {
+    "flightType": "J",
+    "serviceClasses": "FY",
+    "restrictions": "",
+    "uplines": [],
+    "downlines": []
+   },
+   "operationalTimes": {
+    "publishedDeparture": {
+     "dateUtc": "2018-01-22T22:24:00.000Z",
+     "dateLocal": "2018-01-22T17:24:00.000"
+    },
+    "scheduledGateDeparture": {
+     "dateUtc": "2018-01-22T22:24:00.000Z",
+     "dateLocal": "2018-01-22T17:24:00.000"
+    },
+    "estimatedGateDeparture": {
+     "dateUtc": "2018-01-22T22:20:00.000Z",
+     "dateLocal": "2018-01-22T17:20:00.000"
+    },
+    "actualGateDeparture": {
+     "dateUtc": "2018-01-22T22:20:00.000Z",
+     "dateLocal": "2018-01-22T17:20:00.000"
+    },
+    "flightPlanPlannedDeparture": {
+     "dateUtc": "2018-01-22T22:32:00.000Z",
+     "dateLocal": "2018-01-22T17:32:00.000"
+    },
+    "scheduledRunwayDeparture": {
+     "dateUtc": "2018-01-22T22:32:00.000Z",
+     "dateLocal": "2018-01-22T17:32:00.000"
+    },
+    "estimatedRunwayDeparture": {
+     "dateUtc": "2018-01-22T22:41:00.000Z",
+     "dateLocal": "2018-01-22T17:41:00.000"
+    },
+    "actualRunwayDeparture": {
+     "dateUtc": "2018-01-22T22:41:00.000Z",
+     "dateLocal": "2018-01-22T17:41:00.000"
+    },
+    "publishedArrival": {
+     "dateUtc": "2018-01-23T01:12:00.000Z",
+     "dateLocal": "2018-01-22T20:12:00.000"
+    },
+    "flightPlanPlannedArrival": {
+     "dateUtc": "2018-01-23T00:25:00.000Z",
+     "dateLocal": "2018-01-22T19:25:00.000"
+    },
+    "scheduledGateArrival": {
+     "dateUtc": "2018-01-23T01:12:00.000Z",
+     "dateLocal": "2018-01-22T20:12:00.000"
+    },
+    "estimatedGateArrival": {
+     "dateUtc": "2018-01-23T01:02:00.000Z",
+     "dateLocal": "2018-01-22T20:02:00.000"
+    },
+    "actualGateArrival": {
+     "dateUtc": "2018-01-23T01:02:00.000Z",
+     "dateLocal": "2018-01-22T20:02:00.000"
+    },
+    "scheduledRunwayArrival": {
+     "dateUtc": "2018-01-23T00:25:00.000Z",
+     "dateLocal": "2018-01-22T19:25:00.000"
+    },
+    "estimatedRunwayArrival": {
+     "dateUtc": "2018-01-23T00:40:00.000Z",
+     "dateLocal": "2018-01-22T19:40:00.000"
+    },
+    "actualRunwayArrival": {
+     "dateUtc": "2018-01-23T00:40:00.000Z",
+     "dateLocal": "2018-01-22T19:40:00.000"
+    }
+   },
+   "codeshares": [
+    {
+     "fsCode": "AF",
+     "flightNumber": "3693",
+     "relationship": "L"
+    },
+    {
+     "fsCode": "MU",
+     "flightNumber": "4187",
+     "relationship": "L"
+    },
+    {
+     "fsCode": "SU",
+     "flightNumber": "3590",
+     "relationship": "L"
+    },
+    {
+     "fsCode": "KL",
+     "flightNumber": "5285",
+     "relationship": "L"
+    },
+    {
+     "fsCode": "AZ",
+     "flightNumber": "3235",
+     "relationship": "L"
+    },
+    {
+     "fsCode": "VS",
+     "flightNumber": "2222",
+     "relationship": "L"
+    }
+   ],
+   "delays": {
+    "departureRunwayDelayMinutes": 9,
+    "arrivalRunwayDelayMinutes": 15
+   },
+   "flightDurations": {
+    "scheduledBlockMinutes": 168,
+    "blockMinutes": 162,
+    "scheduledAirMinutes": 113,
+    "airMinutes": 119,
+    "scheduledTaxiOutMinutes": 8,
+    "taxiOutMinutes": 21,
+    "scheduledTaxiInMinutes": 47,
+    "taxiInMinutes": 22
+   },
+   "airportResources": {
+    "departureTerminal": "B",
+    "departureGate": "75",
+    "arrivalTerminal": "4",
+    "arrivalGate": "B36",
+    "baggage": "T4"
+   },
+   "flightEquipment": {
+    "scheduledEquipmentIataCode": "320",
+    "actualEquipmentIataCode": "32S",
+    "tailNumber": "N339NW"
+   },
+   "irregularOperations": []
+  },
+  {
+   "flightId": 947144399,
+   "carrierFsCode": "DL",
+   "operatingCarrierFsCode": "DL",
+   "primaryCarrierFsCode": "DL",
+   "flightNumber": "2109",
+   "departureAirportFsCode": "MCO",
+   "arrivalAirportFsCode": "ATL",
+   "departureDate": {
+    "dateUtc": "2018-01-22T22:30:00.000Z",
+    "dateLocal": "2018-01-22T17:30:00.000"
+   },
+   "arrivalDate": {
+    "dateUtc": "2018-01-23T00:12:00.000Z",
+    "dateLocal": "2018-01-22T19:12:00.000"
+   },
+   "status": "L",
+   "schedule": {
+    "flightType": "J",
+    "serviceClasses": "FY",
+    "restrictions": "",
+    "uplines": [
+     {
+      "fsCode": "ATL",
+      "flightId": 947144376
+     }
+    ],
+    "downlines": []
+   },
+   "operationalTimes": {
+    "publishedDeparture": {
+     "dateUtc": "2018-01-22T22:30:00.000Z",
+     "dateLocal": "2018-01-22T17:30:00.000"
+    },
+    "scheduledGateDeparture": {
+     "dateUtc": "2018-01-22T22:30:00.000Z",
+     "dateLocal": "2018-01-22T17:30:00.000"
+    },
+    "estimatedGateDeparture": {
+     "dateUtc": "2018-01-22T22:26:00.000Z",
+     "dateLocal": "2018-01-22T17:26:00.000"
+    },
+    "actualGateDeparture": {
+     "dateUtc": "2018-01-22T22:26:00.000Z",
+     "dateLocal": "2018-01-22T17:26:00.000"
+    },
+    "flightPlanPlannedDeparture": {
+     "dateUtc": "2018-01-22T22:32:00.000Z",
+     "dateLocal": "2018-01-22T17:32:00.000"
+    },
+    "scheduledRunwayDeparture": {
+     "dateUtc": "2018-01-22T22:32:00.000Z",
+     "dateLocal": "2018-01-22T17:32:00.000"
+    },
+    "estimatedRunwayDeparture": {
+     "dateUtc": "2018-01-22T22:50:00.000Z",
+     "dateLocal": "2018-01-22T17:50:00.000"
+    },
+    "actualRunwayDeparture": {
+     "dateUtc": "2018-01-22T22:50:00.000Z",
+     "dateLocal": "2018-01-22T17:50:00.000"
+    },
+    "publishedArrival": {
+     "dateUtc": "2018-01-23T00:12:00.000Z",
+     "dateLocal": "2018-01-22T19:12:00.000"
+    },
+    "flightPlanPlannedArrival": {
+     "dateUtc": "2018-01-22T23:32:00.000Z",
+     "dateLocal": "2018-01-22T18:32:00.000"
+    },
+    "scheduledGateArrival": {
+     "dateUtc": "2018-01-23T00:12:00.000Z",
+     "dateLocal": "2018-01-22T19:12:00.000"
+    },
+    "estimatedGateArrival": {
+     "dateUtc": "2018-01-23T00:15:00.000Z",
+     "dateLocal": "2018-01-22T19:15:00.000"
+    },
+    "actualGateArrival": {
+     "dateUtc": "2018-01-23T00:15:00.000Z",
+     "dateLocal": "2018-01-22T19:15:00.000"
+    },
+    "scheduledRunwayArrival": {
+     "dateUtc": "2018-01-22T23:32:00.000Z",
+     "dateLocal": "2018-01-22T18:32:00.000"
+    },
+    "estimatedRunwayArrival": {
+     "dateUtc": "2018-01-23T00:04:00.000Z",
+     "dateLocal": "2018-01-22T19:04:00.000"
+    },
+    "actualRunwayArrival": {
+     "dateUtc": "2018-01-23T00:04:00.000Z",
+     "dateLocal": "2018-01-22T19:04:00.000"
+    }
+   },
+   "codeshares": [
+    {
+     "fsCode": "AM",
+     "flightNumber": "4432",
+     "relationship": "L"
+    },
+    {
+     "fsCode": "KL",
+     "flightNumber": "7842",
+     "relationship": "L"
+    },
+    {
+     "fsCode": "VS",
+     "flightNumber": "5208",
+     "relationship": "L"
+    },
+    {
+     "fsCode": "AF",
+     "flightNumber": "3535",
+     "relationship": "L"
+    }
+   ],
+   "delays": {
+    "departureRunwayDelayMinutes": 18,
+    "arrivalGateDelayMinutes": 3,
+    "arrivalRunwayDelayMinutes": 32
+   },
+   "flightDurations": {
+    "scheduledBlockMinutes": 102,
+    "blockMinutes": 109,
+    "scheduledAirMinutes": 60,
+    "airMinutes": 74,
+    "scheduledTaxiOutMinutes": 2,
+    "taxiOutMinutes": 24,
+    "scheduledTaxiInMinutes": 40,
+    "taxiInMinutes": 11
+   },
+   "airportResources": {
+    "departureTerminal": "B",
+    "departureGate": "77",
+    "arrivalTerminal": "S",
+    "arrivalGate": "T6",
+    "baggage": "8"
+   },
+   "flightEquipment": {
+    "scheduledEquipmentIataCode": "738",
+    "actualEquipmentIataCode": "738",
+    "tailNumber": "N395DN"
+   },
+   "irregularOperations": []
+  },
+  {
+   "flightId": 947418272,
+   "carrierFsCode": "DL",
+   "operatingCarrierFsCode": "DL",
+   "primaryCarrierFsCode": "DL",
+   "flightNumber": "9938",
+   "departureAirportFsCode": "MCO",
+   "arrivalAirportFsCode": "ATL",
+   "departureDate": {
+    "dateUtc": "2018-01-22T22:30:00.000Z",
+    "dateLocal": "2018-01-22T17:30:00.000"
+   },
+   "arrivalDate": {
+    "dateUtc": "2018-01-22T23:50:00.000Z",
+    "dateLocal": "2018-01-22T18:50:00.000"
+   },
+   "status": "L",
+   "operationalTimes": {
+    "scheduledGateDeparture": {
+     "dateUtc": "2018-01-22T22:30:00.000Z",
+     "dateLocal": "2018-01-22T17:30:00.000"
+    },
+    "estimatedGateDeparture": {
+     "dateUtc": "2018-01-22T22:02:00.000Z",
+     "dateLocal": "2018-01-22T17:02:00.000"
+    },
+    "actualGateDeparture": {
+     "dateUtc": "2018-01-22T22:02:00.000Z",
+     "dateLocal": "2018-01-22T17:02:00.000"
+    },
+    "flightPlanPlannedDeparture": {
+     "dateUtc": "2018-01-22T21:59:00.000Z",
+     "dateLocal": "2018-01-22T16:59:00.000"
+    },
+    "scheduledRunwayDeparture": {
+     "dateUtc": "2018-01-22T21:59:00.000Z",
+     "dateLocal": "2018-01-22T16:59:00.000"
+    },
+    "estimatedRunwayDeparture": {
+     "dateUtc": "2018-01-22T22:30:00.000Z",
+     "dateLocal": "2018-01-22T17:30:00.000"
+    },
+    "actualRunwayDeparture": {
+     "dateUtc": "2018-01-22T22:30:00.000Z",
+     "dateLocal": "2018-01-22T17:30:00.000"
+    },
+    "flightPlanPlannedArrival": {
+     "dateUtc": "2018-01-22T22:52:00.000Z",
+     "dateLocal": "2018-01-22T17:52:00.000"
+    },
+    "scheduledGateArrival": {
+     "dateUtc": "2018-01-22T23:50:00.000Z",
+     "dateLocal": "2018-01-22T18:50:00.000"
+    },
+    "estimatedGateArrival": {
+     "dateUtc": "2018-01-23T00:06:00.000Z",
+     "dateLocal": "2018-01-22T19:06:00.000"
+    },
+    "actualGateArrival": {
+     "dateUtc": "2018-01-23T00:06:00.000Z",
+     "dateLocal": "2018-01-22T19:06:00.000"
+    },
+    "scheduledRunwayArrival": {
+     "dateUtc": "2018-01-22T22:52:00.000Z",
+     "dateLocal": "2018-01-22T17:52:00.000"
+    },
+    "estimatedRunwayArrival": {
+     "dateUtc": "2018-01-22T23:38:00.000Z",
+     "dateLocal": "2018-01-22T18:38:00.000"
+    },
+    "actualRunwayArrival": {
+     "dateUtc": "2018-01-22T23:38:00.000Z",
+     "dateLocal": "2018-01-22T18:38:00.000"
+    }
+   },
+   "codeshares": [],
+   "delays": {
+    "departureRunwayDelayMinutes": 31,
+    "arrivalGateDelayMinutes": 16,
+    "arrivalRunwayDelayMinutes": 46
+   },
+   "flightDurations": {
+    "scheduledBlockMinutes": 80,
+    "blockMinutes": 124,
+    "scheduledAirMinutes": 53,
+    "airMinutes": 68,
+    "taxiOutMinutes": 28,
+    "scheduledTaxiInMinutes": 58,
+    "taxiInMinutes": 28
+   },
+   "airportResources": {
+    "departureTerminal": "B",
+    "departureGate": "78",
+    "arrivalTerminal": "S",
+    "arrivalGate": "A5"
+   },
+   "flightEquipment": {
+    "actualEquipmentIataCode": "753",
+    "tailNumber": "N596NW"
+   },
+   "irregularOperations": []
+  },
+  {
+   "flightId": 947142941,
+   "carrierFsCode": "DL",
+   "operatingCarrierFsCode": "DL",
+   "primaryCarrierFsCode": "DL",
+   "flightNumber": "1110",
+   "departureAirportFsCode": "MCO",
+   "arrivalAirportFsCode": "ATL",
+   "departureDate": {
+    "dateUtc": "2018-01-22T23:30:00.000Z",
+    "dateLocal": "2018-01-22T18:30:00.000"
+   },
+   "arrivalDate": {
+    "dateUtc": "2018-01-23T01:18:00.000Z",
+    "dateLocal": "2018-01-22T20:18:00.000"
+   },
+   "status": "L",
+   "schedule": {
+    "flightType": "J",
+    "serviceClasses": "FY",
+    "restrictions": "",
+    "uplines": [
+     {
+      "fsCode": "ATL",
+      "flightId": 947142921
+     }
+    ],
+    "downlines": []
+   },
+   "operationalTimes": {
+    "publishedDeparture": {
+     "dateUtc": "2018-01-22T23:30:00.000Z",
+     "dateLocal": "2018-01-22T18:30:00.000"
+    },
+    "scheduledGateDeparture": {
+     "dateUtc": "2018-01-22T23:30:00.000Z",
+     "dateLocal": "2018-01-22T18:30:00.000"
+    },
+    "estimatedGateDeparture": {
+     "dateUtc": "2018-01-22T23:24:00.000Z",
+     "dateLocal": "2018-01-22T18:24:00.000"
+    },
+    "actualGateDeparture": {
+     "dateUtc": "2018-01-22T23:24:00.000Z",
+     "dateLocal": "2018-01-22T18:24:00.000"
+    },
+    "flightPlanPlannedDeparture": {
+     "dateUtc": "2018-01-22T23:32:00.000Z",
+     "dateLocal": "2018-01-22T18:32:00.000"
+    },
+    "scheduledRunwayDeparture": {
+     "dateUtc": "2018-01-22T23:32:00.000Z",
+     "dateLocal": "2018-01-22T18:32:00.000"
+    },
+    "estimatedRunwayDeparture": {
+     "dateUtc": "2018-01-22T23:40:00.000Z",
+     "dateLocal": "2018-01-22T18:40:00.000"
+    },
+    "actualRunwayDeparture": {
+     "dateUtc": "2018-01-22T23:40:00.000Z",
+     "dateLocal": "2018-01-22T18:40:00.000"
+    },
+    "publishedArrival": {
+     "dateUtc": "2018-01-23T01:18:00.000Z",
+     "dateLocal": "2018-01-22T20:18:00.000"
+    },
+    "flightPlanPlannedArrival": {
+     "dateUtc": "2018-01-23T00:34:00.000Z",
+     "dateLocal": "2018-01-22T19:34:00.000"
+    },
+    "scheduledGateArrival": {
+     "dateUtc": "2018-01-23T01:18:00.000Z",
+     "dateLocal": "2018-01-22T20:18:00.000"
+    },
+    "estimatedGateArrival": {
+     "dateUtc": "2018-01-23T01:07:00.000Z",
+     "dateLocal": "2018-01-22T20:07:00.000"
+    },
+    "actualGateArrival": {
+     "dateUtc": "2018-01-23T01:07:00.000Z",
+     "dateLocal": "2018-01-22T20:07:00.000"
+    },
+    "scheduledRunwayArrival": {
+     "dateUtc": "2018-01-23T00:34:00.000Z",
+     "dateLocal": "2018-01-22T19:34:00.000"
+    },
+    "estimatedRunwayArrival": {
+     "dateUtc": "2018-01-23T00:52:00.000Z",
+     "dateLocal": "2018-01-22T19:52:00.000"
+    },
+    "actualRunwayArrival": {
+     "dateUtc": "2018-01-23T00:52:00.000Z",
+     "dateLocal": "2018-01-22T19:52:00.000"
+    }
+   },
+   "codeshares": [
+    {
+     "fsCode": "G3",
+     "flightNumber": "8043",
+     "relationship": "L"
+    },
+    {
+     "fsCode": "VS",
+     "flightNumber": "5196",
+     "relationship": "L"
+    }
+   ],
+   "delays": {
+    "departureRunwayDelayMinutes": 8,
+    "arrivalRunwayDelayMinutes": 18
+   },
+   "flightDurations": {
+    "scheduledBlockMinutes": 108,
+    "blockMinutes": 103,
+    "scheduledAirMinutes": 62,
+    "airMinutes": 72,
+    "scheduledTaxiOutMinutes": 2,
+    "taxiOutMinutes": 16,
+    "scheduledTaxiInMinutes": 44,
+    "taxiInMinutes": 15
+   },
+   "airportResources": {
+    "departureTerminal": "B",
+    "departureGate": "71",
+    "arrivalTerminal": "S",
+    "arrivalGate": "A19",
+    "baggage": "8"
+   },
+   "flightEquipment": {
+    "scheduledEquipmentIataCode": "757",
+    "actualEquipmentIataCode": "75D",
+    "tailNumber": "N692DL"
+   },
+   "irregularOperations": []
+  },
+  {
+   "flightId": 947148099,
+   "carrierFsCode": "DL",
+   "operatingCarrierFsCode": "DL",
+   "primaryCarrierFsCode": "DL",
+   "flightNumber": "869",
+   "departureAirportFsCode": "MCO",
+   "arrivalAirportFsCode": "LGA",
+   "departureDate": {
+    "dateUtc": "2018-01-22T23:33:00.000Z",
+    "dateLocal": "2018-01-22T18:33:00.000"
+   },
+   "arrivalDate": {
+    "dateUtc": "2018-01-23T02:15:00.000Z",
+    "dateLocal": "2018-01-22T21:15:00.000"
+   },
+   "status": "L",
+   "schedule": {
+    "flightType": "J",
+    "serviceClasses": "FY",
+    "restrictions": "",
+    "uplines": [],
+    "downlines": []
+   },
+   "operationalTimes": {
+    "publishedDeparture": {
+     "dateUtc": "2018-01-22T23:33:00.000Z",
+     "dateLocal": "2018-01-22T18:33:00.000"
+    },
+    "scheduledGateDeparture": {
+     "dateUtc": "2018-01-22T23:33:00.000Z",
+     "dateLocal": "2018-01-22T18:33:00.000"
+    },
+    "estimatedGateDeparture": {
+     "dateUtc": "2018-01-22T23:30:00.000Z",
+     "dateLocal": "2018-01-22T18:30:00.000"
+    },
+    "actualGateDeparture": {
+     "dateUtc": "2018-01-22T23:30:00.000Z",
+     "dateLocal": "2018-01-22T18:30:00.000"
+    },
+    "flightPlanPlannedDeparture": {
+     "dateUtc": "2018-01-22T23:38:00.000Z",
+     "dateLocal": "2018-01-22T18:38:00.000"
+    },
+    "scheduledRunwayDeparture": {
+     "dateUtc": "2018-01-22T23:38:00.000Z",
+     "dateLocal": "2018-01-22T18:38:00.000"
+    },
+    "estimatedRunwayDeparture": {
+     "dateUtc": "2018-01-22T23:41:00.000Z",
+     "dateLocal": "2018-01-22T18:41:00.000"
+    },
+    "actualRunwayDeparture": {
+     "dateUtc": "2018-01-22T23:41:00.000Z",
+     "dateLocal": "2018-01-22T18:41:00.000"
+    },
+    "publishedArrival": {
+     "dateUtc": "2018-01-23T02:15:00.000Z",
+     "dateLocal": "2018-01-22T21:15:00.000"
+    },
+    "flightPlanPlannedArrival": {
+     "dateUtc": "2018-01-23T01:33:00.000Z",
+     "dateLocal": "2018-01-22T20:33:00.000"
+    },
+    "scheduledGateArrival": {
+     "dateUtc": "2018-01-23T02:15:00.000Z",
+     "dateLocal": "2018-01-22T21:15:00.000"
+    },
+    "estimatedGateArrival": {
+     "dateUtc": "2018-01-23T01:51:00.000Z",
+     "dateLocal": "2018-01-22T20:51:00.000"
+    },
+    "actualGateArrival": {
+     "dateUtc": "2018-01-23T01:51:00.000Z",
+     "dateLocal": "2018-01-22T20:51:00.000"
+    },
+    "scheduledRunwayArrival": {
+     "dateUtc": "2018-01-23T01:33:00.000Z",
+     "dateLocal": "2018-01-22T20:33:00.000"
+    },
+    "estimatedRunwayArrival": {
+     "dateUtc": "2018-01-23T01:46:00.000Z",
+     "dateLocal": "2018-01-22T20:46:00.000"
+    },
+    "actualRunwayArrival": {
+     "dateUtc": "2018-01-23T01:46:00.000Z",
+     "dateLocal": "2018-01-22T20:46:00.000"
+    }
+   },
+   "codeshares": [
+    {
+     "fsCode": "WS",
+     "flightNumber": "7591",
+     "relationship": "L"
+    }
+   ],
+   "delays": {
+    "departureRunwayDelayMinutes": 3,
+    "arrivalRunwayDelayMinutes": 13
+   },
+   "flightDurations": {
+    "scheduledBlockMinutes": 162,
+    "blockMinutes": 141,
+    "scheduledAirMinutes": 115,
+    "airMinutes": 125,
+    "scheduledTaxiOutMinutes": 5,
+    "taxiOutMinutes": 11,
+    "scheduledTaxiInMinutes": 42,
+    "taxiInMinutes": 5
+   },
+   "airportResources": {
+    "departureTerminal": "B",
+    "departureGate": "76",
+    "arrivalTerminal": "D",
+    "arrivalGate": "D10"
+   },
+   "flightEquipment": {
+    "scheduledEquipmentIataCode": "321",
+    "actualEquipmentIataCode": "321",
+    "tailNumber": "N327DN"
+   },
+   "irregularOperations": []
+  },
+  {
+   "flightId": 947145077,
+   "carrierFsCode": "DL",
+   "operatingCarrierFsCode": "DL",
+   "primaryCarrierFsCode": "DL",
+   "flightNumber": "2880",
+   "departureAirportFsCode": "MCO",
+   "arrivalAirportFsCode": "DTW",
+   "departureDate": {
+    "dateUtc": "2018-01-22T23:40:00.000Z",
+    "dateLocal": "2018-01-22T18:40:00.000"
+   },
+   "arrivalDate": {
+    "dateUtc": "2018-01-23T02:24:00.000Z",
+    "dateLocal": "2018-01-22T21:24:00.000"
+   },
+   "status": "L",
+   "schedule": {
+    "flightType": "J",
+    "serviceClasses": "FY",
+    "restrictions": "",
+    "uplines": [],
+    "downlines": []
+   },
+   "operationalTimes": {
+    "publishedDeparture": {
+     "dateUtc": "2018-01-22T23:40:00.000Z",
+     "dateLocal": "2018-01-22T18:40:00.000"
+    },
+    "scheduledGateDeparture": {
+     "dateUtc": "2018-01-22T23:40:00.000Z",
+     "dateLocal": "2018-01-22T18:40:00.000"
+    },
+    "estimatedGateDeparture": {
+     "dateUtc": "2018-01-22T23:37:00.000Z",
+     "dateLocal": "2018-01-22T18:37:00.000"
+    },
+    "actualGateDeparture": {
+     "dateUtc": "2018-01-22T23:37:00.000Z",
+     "dateLocal": "2018-01-22T18:37:00.000"
+    },
+    "flightPlanPlannedDeparture": {
+     "dateUtc": "2018-01-22T23:45:00.000Z",
+     "dateLocal": "2018-01-22T18:45:00.000"
+    },
+    "scheduledRunwayDeparture": {
+     "dateUtc": "2018-01-22T23:45:00.000Z",
+     "dateLocal": "2018-01-22T18:45:00.000"
+    },
+    "estimatedRunwayDeparture": {
+     "dateUtc": "2018-01-22T23:48:00.000Z",
+     "dateLocal": "2018-01-22T18:48:00.000"
+    },
+    "actualRunwayDeparture": {
+     "dateUtc": "2018-01-22T23:48:00.000Z",
+     "dateLocal": "2018-01-22T18:48:00.000"
+    },
+    "publishedArrival": {
+     "dateUtc": "2018-01-23T02:24:00.000Z",
+     "dateLocal": "2018-01-22T21:24:00.000"
+    },
+    "flightPlanPlannedArrival": {
+     "dateUtc": "2018-01-23T01:51:00.000Z",
+     "dateLocal": "2018-01-22T20:51:00.000"
+    },
+    "scheduledGateArrival": {
+     "dateUtc": "2018-01-23T02:24:00.000Z",
+     "dateLocal": "2018-01-22T21:24:00.000"
+    },
+    "estimatedGateArrival": {
+     "dateUtc": "2018-01-23T01:58:00.000Z",
+     "dateLocal": "2018-01-22T20:58:00.000"
+    },
+    "actualGateArrival": {
+     "dateUtc": "2018-01-23T01:58:00.000Z",
+     "dateLocal": "2018-01-22T20:58:00.000"
+    },
+    "scheduledRunwayArrival": {
+     "dateUtc": "2018-01-23T01:51:00.000Z",
+     "dateLocal": "2018-01-22T20:51:00.000"
+    },
+    "estimatedRunwayArrival": {
+     "dateUtc": "2018-01-23T01:51:00.000Z",
+     "dateLocal": "2018-01-22T20:51:00.000"
+    },
+    "actualRunwayArrival": {
+     "dateUtc": "2018-01-23T01:51:00.000Z",
+     "dateLocal": "2018-01-22T20:51:00.000"
+    }
+   },
+   "codeshares": [
+    {
+     "fsCode": "VS",
+     "flightNumber": "5744",
+     "relationship": "L"
+    }
+   ],
+   "delays": {
+    "departureRunwayDelayMinutes": 3
+   },
+   "flightDurations": {
+    "scheduledBlockMinutes": 164,
+    "blockMinutes": 141,
+    "scheduledAirMinutes": 126,
+    "airMinutes": 123,
+    "scheduledTaxiOutMinutes": 5,
+    "taxiOutMinutes": 11,
+    "scheduledTaxiInMinutes": 33,
+    "taxiInMinutes": 7
+   },
+   "airportResources": {
+    "departureTerminal": "B",
+    "departureGate": "75",
+    "arrivalTerminal": "M",
+    "arrivalGate": "A66"
+   },
+   "flightEquipment": {
+    "scheduledEquipmentIataCode": "753",
+    "actualEquipmentIataCode": "753",
+    "tailNumber": "N585NW"
+   },
+   "irregularOperations": []
+  },
+  {
+   "flightId": 947143015,
+   "carrierFsCode": "DL",
+   "operatingCarrierFsCode": "DL",
+   "primaryCarrierFsCode": "DL",
+   "flightNumber": "1061",
+   "departureAirportFsCode": "MCO",
+   "arrivalAirportFsCode": "LAX",
+   "departureDate": {
+    "dateUtc": "2018-01-22T23:51:00.000Z",
+    "dateLocal": "2018-01-22T18:51:00.000"
+   },
+   "arrivalDate": {
+    "dateUtc": "2018-01-23T05:20:00.000Z",
+    "dateLocal": "2018-01-22T21:20:00.000"
+   },
+   "status": "L",
+   "schedule": {
+    "flightType": "J",
+    "serviceClasses": "FY",
+    "restrictions": "",
+    "uplines": [
+     {
+      "fsCode": "LAX",
+      "flightId": 947143002
+     }
+    ],
+    "downlines": []
+   },
+   "operationalTimes": {
+    "publishedDeparture": {
+     "dateUtc": "2018-01-22T23:51:00.000Z",
+     "dateLocal": "2018-01-22T18:51:00.000"
+    },
+    "scheduledGateDeparture": {
+     "dateUtc": "2018-01-22T23:51:00.000Z",
+     "dateLocal": "2018-01-22T18:51:00.000"
+    },
+    "estimatedGateDeparture": {
+     "dateUtc": "2018-01-22T23:40:00.000Z",
+     "dateLocal": "2018-01-22T18:40:00.000"
+    },
+    "actualGateDeparture": {
+     "dateUtc": "2018-01-22T23:40:00.000Z",
+     "dateLocal": "2018-01-22T18:40:00.000"
+    },
+    "flightPlanPlannedDeparture": {
+     "dateUtc": "2018-01-22T23:57:00.000Z",
+     "dateLocal": "2018-01-22T18:57:00.000"
+    },
+    "scheduledRunwayDeparture": {
+     "dateUtc": "2018-01-22T23:57:00.000Z",
+     "dateLocal": "2018-01-22T18:57:00.000"
+    },
+    "estimatedRunwayDeparture": {
+     "dateUtc": "2018-01-22T23:59:00.000Z",
+     "dateLocal": "2018-01-22T18:59:00.000"
+    },
+    "actualRunwayDeparture": {
+     "dateUtc": "2018-01-22T23:59:00.000Z",
+     "dateLocal": "2018-01-22T18:59:00.000"
+    },
+    "publishedArrival": {
+     "dateUtc": "2018-01-23T05:20:00.000Z",
+     "dateLocal": "2018-01-22T21:20:00.000"
+    },
+    "flightPlanPlannedArrival": {
+     "dateUtc": "2018-01-23T05:02:00.000Z",
+     "dateLocal": "2018-01-22T21:02:00.000"
+    },
+    "scheduledGateArrival": {
+     "dateUtc": "2018-01-23T05:20:00.000Z",
+     "dateLocal": "2018-01-22T21:20:00.000"
+    },
+    "estimatedGateArrival": {
+     "dateUtc": "2018-01-23T05:25:00.000Z",
+     "dateLocal": "2018-01-22T21:25:00.000"
+    },
+    "actualGateArrival": {
+     "dateUtc": "2018-01-23T05:25:00.000Z",
+     "dateLocal": "2018-01-22T21:25:00.000"
+    },
+    "scheduledRunwayArrival": {
+     "dateUtc": "2018-01-23T05:02:00.000Z",
+     "dateLocal": "2018-01-22T21:02:00.000"
+    },
+    "estimatedRunwayArrival": {
+     "dateUtc": "2018-01-23T05:17:00.000Z",
+     "dateLocal": "2018-01-22T21:17:00.000"
+    },
+    "actualRunwayArrival": {
+     "dateUtc": "2018-01-23T05:17:00.000Z",
+     "dateLocal": "2018-01-22T21:17:00.000"
+    }
+   },
+   "codeshares": [
+    {
+     "fsCode": "VA",
+     "flightNumber": "6616",
+     "relationship": "L"
+    },
+    {
+     "fsCode": "VS",
+     "flightNumber": "2225",
+     "relationship": "L"
+    },
+    {
+     "fsCode": "KE",
+     "flightNumber": "7540",
+     "relationship": "L"
+    }
+   ],
+   "delays": {
+    "departureRunwayDelayMinutes": 2,
+    "arrivalGateDelayMinutes": 5,
+    "arrivalRunwayDelayMinutes": 15
+   },
+   "flightDurations": {
+    "scheduledBlockMinutes": 329,
+    "blockMinutes": 345,
+    "scheduledAirMinutes": 305,
+    "airMinutes": 318,
+    "scheduledTaxiOutMinutes": 6,
+    "taxiOutMinutes": 19,
+    "scheduledTaxiInMinutes": 18,
+    "taxiInMinutes": 8
+   },
+   "airportResources": {
+    "departureTerminal": "B",
+    "departureGate": "74",
+    "arrivalTerminal": "3",
+    "arrivalGate": "38",
+    "baggage": "7"
+   },
+   "flightEquipment": {
+    "scheduledEquipmentIataCode": "757",
+    "actualEquipmentIataCode": "752",
+    "tailNumber": "N554NW"
+   },
+   "irregularOperations": []
+  },
+  {
+   "flightId": 947145012,
+   "carrierFsCode": "DL",
+   "operatingCarrierFsCode": "DL",
+   "primaryCarrierFsCode": "DL",
+   "flightNumber": "2703",
+   "departureAirportFsCode": "MCO",
+   "arrivalAirportFsCode": "BOS",
+   "departureDate": {
+    "dateUtc": "2018-01-22T23:55:00.000Z",
+    "dateLocal": "2018-01-22T18:55:00.000"
+   },
+   "arrivalDate": {
+    "dateUtc": "2018-01-23T02:51:00.000Z",
+    "dateLocal": "2018-01-22T21:51:00.000"
+   },
+   "status": "L",
+   "schedule": {
+    "flightType": "J",
+    "serviceClasses": "FY",
+    "restrictions": "",
+    "uplines": [],
+    "downlines": []
+   },
+   "operationalTimes": {
+    "publishedDeparture": {
+     "dateUtc": "2018-01-22T23:55:00.000Z",
+     "dateLocal": "2018-01-22T18:55:00.000"
+    },
+    "scheduledGateDeparture": {
+     "dateUtc": "2018-01-22T23:55:00.000Z",
+     "dateLocal": "2018-01-22T18:55:00.000"
+    },
+    "estimatedGateDeparture": {
+     "dateUtc": "2018-01-22T23:49:00.000Z",
+     "dateLocal": "2018-01-22T18:49:00.000"
+    },
+    "actualGateDeparture": {
+     "dateUtc": "2018-01-22T23:49:00.000Z",
+     "dateLocal": "2018-01-22T18:49:00.000"
+    },
+    "flightPlanPlannedDeparture": {
+     "dateUtc": "2018-01-23T00:00:00.000Z",
+     "dateLocal": "2018-01-22T19:00:00.000"
+    },
+    "scheduledRunwayDeparture": {
+     "dateUtc": "2018-01-23T00:00:00.000Z",
+     "dateLocal": "2018-01-22T19:00:00.000"
+    },
+    "estimatedRunwayDeparture": {
+     "dateUtc": "2018-01-23T00:00:00.000Z",
+     "dateLocal": "2018-01-22T19:00:00.000"
+    },
+    "actualRunwayDeparture": {
+     "dateUtc": "2018-01-23T00:00:00.000Z",
+     "dateLocal": "2018-01-22T19:00:00.000"
+    },
+    "publishedArrival": {
+     "dateUtc": "2018-01-23T02:51:00.000Z",
+     "dateLocal": "2018-01-22T21:51:00.000"
+    },
+    "flightPlanPlannedArrival": {
+     "dateUtc": "2018-01-23T02:15:00.000Z",
+     "dateLocal": "2018-01-22T21:15:00.000"
+    },
+    "scheduledGateArrival": {
+     "dateUtc": "2018-01-23T02:51:00.000Z",
+     "dateLocal": "2018-01-22T21:51:00.000"
+    },
+    "estimatedGateArrival": {
+     "dateUtc": "2018-01-23T02:28:00.000Z",
+     "dateLocal": "2018-01-22T21:28:00.000"
+    },
+    "actualGateArrival": {
+     "dateUtc": "2018-01-23T02:28:00.000Z",
+     "dateLocal": "2018-01-22T21:28:00.000"
+    },
+    "scheduledRunwayArrival": {
+     "dateUtc": "2018-01-23T02:15:00.000Z",
+     "dateLocal": "2018-01-22T21:15:00.000"
+    },
+    "estimatedRunwayArrival": {
+     "dateUtc": "2018-01-23T02:17:00.000Z",
+     "dateLocal": "2018-01-22T21:17:00.000"
+    },
+    "actualRunwayArrival": {
+     "dateUtc": "2018-01-23T02:17:00.000Z",
+     "dateLocal": "2018-01-22T21:17:00.000"
+    }
+   },
+   "codeshares": [
+    {
+     "fsCode": "VS",
+     "flightNumber": "4234",
+     "relationship": "L"
+    }
+   ],
+   "delays": {
+    "arrivalRunwayDelayMinutes": 2
+   },
+   "flightDurations": {
+    "scheduledBlockMinutes": 176,
+    "blockMinutes": 159,
+    "scheduledAirMinutes": 135,
+    "airMinutes": 137,
+    "scheduledTaxiOutMinutes": 5,
+    "taxiOutMinutes": 11,
+    "scheduledTaxiInMinutes": 36,
+    "taxiInMinutes": 11
+   },
+   "airportResources": {
+    "departureTerminal": "B",
+    "departureGate": "73",
+    "arrivalTerminal": "A",
+    "arrivalGate": "A4",
+    "baggage": "3"
+   },
+   "flightEquipment": {
+    "scheduledEquipmentIataCode": "320",
+    "actualEquipmentIataCode": "32S",
+    "tailNumber": "N317US"
+   },
+   "irregularOperations": []
+  },
+  {
+   "flightId": 947143252,
+   "carrierFsCode": "DL",
+   "operatingCarrierFsCode": "DL",
+   "primaryCarrierFsCode": "DL",
+   "flightNumber": "1261",
+   "departureAirportFsCode": "MCO",
+   "arrivalAirportFsCode": "MSP",
+   "departureDate": {
+    "dateUtc": "2018-01-23T00:04:00.000Z",
+    "dateLocal": "2018-01-22T19:04:00.000"
+   },
+   "arrivalDate": {
+    "dateUtc": "2018-01-23T03:39:00.000Z",
+    "dateLocal": "2018-01-22T21:39:00.000"
+   },
+   "status": "C",
+   "schedule": {
+    "flightType": "J",
+    "serviceClasses": "FY",
+    "restrictions": "",
+    "uplines": [],
+    "downlines": []
+   },
+   "operationalTimes": {
+    "publishedDeparture": {
+     "dateUtc": "2018-01-23T00:04:00.000Z",
+     "dateLocal": "2018-01-22T19:04:00.000"
+    },
+    "scheduledGateDeparture": {
+     "dateUtc": "2018-01-23T00:04:00.000Z",
+     "dateLocal": "2018-01-22T19:04:00.000"
+    },
+    "estimatedGateDeparture": {
+     "dateUtc": "2018-01-23T03:20:00.000Z",
+     "dateLocal": "2018-01-22T22:20:00.000"
+    },
+    "flightPlanPlannedDeparture": {
+     "dateUtc": "2018-01-23T03:32:00.000Z",
+     "dateLocal": "2018-01-22T22:32:00.000"
+    },
+    "scheduledRunwayDeparture": {
+     "dateUtc": "2018-01-23T03:32:00.000Z",
+     "dateLocal": "2018-01-22T22:32:00.000"
+    },
+    "publishedArrival": {
+     "dateUtc": "2018-01-23T03:39:00.000Z",
+     "dateLocal": "2018-01-22T21:39:00.000"
+    },
+    "flightPlanPlannedArrival": {
+     "dateUtc": "2018-01-23T06:45:00.000Z",
+     "dateLocal": "2018-01-23T00:45:00.000"
+    },
+    "scheduledGateArrival": {
+     "dateUtc": "2018-01-23T03:39:00.000Z",
+     "dateLocal": "2018-01-22T21:39:00.000"
+    },
+    "estimatedGateArrival": {
+     "dateUtc": "2018-01-23T06:55:00.000Z",
+     "dateLocal": "2018-01-23T00:55:00.000"
+    },
+    "scheduledRunwayArrival": {
+     "dateUtc": "2018-01-23T06:45:00.000Z",
+     "dateLocal": "2018-01-23T00:45:00.000"
+    }
+   },
+   "codeshares": [
+    {
+     "fsCode": "VS",
+     "flightNumber": "3435",
+     "relationship": "L"
+    }
+   ],
+   "delays": {
+    "departureGateDelayMinutes": 196,
+    "arrivalGateDelayMinutes": 196
+   },
+   "flightDurations": {
+    "scheduledBlockMinutes": 215,
+    "scheduledAirMinutes": 193,
+    "scheduledTaxiOutMinutes": 208
+   },
+   "airportResources": {
+    "departureTerminal": "B",
+    "departureGate": "72",
+    "arrivalTerminal": "1",
+    "arrivalGate": "G19",
+    "baggage": "3"
+   },
+   "flightEquipment": {
+    "scheduledEquipmentIataCode": "753",
+    "actualEquipmentIataCode": "753",
+    "tailNumber": "N589NW"
+   },
+   "irregularOperations": [
+    {
+     "type": "CANCELLATION",
+     "dateUtc": "2018-01-22T22:16:46.652Z"
+    }
+   ]
+  },
+  {
+   "flightId": 947143827,
+   "carrierFsCode": "DL",
+   "operatingCarrierFsCode": "DL",
+   "primaryCarrierFsCode": "DL",
+   "flightNumber": "1706",
+   "departureAirportFsCode": "MCO",
+   "arrivalAirportFsCode": "IND",
+   "departureDate": {
+    "dateUtc": "2018-01-23T00:05:00.000Z",
+    "dateLocal": "2018-01-22T19:05:00.000"
+   },
+   "arrivalDate": {
+    "dateUtc": "2018-01-23T02:33:00.000Z",
+    "dateLocal": "2018-01-22T21:33:00.000"
+   },
+   "status": "L",
+   "schedule": {
+    "flightType": "J",
+    "serviceClasses": "FY",
+    "restrictions": "",
+    "uplines": [],
+    "downlines": []
+   },
+   "operationalTimes": {
+    "publishedDeparture": {
+     "dateUtc": "2018-01-23T00:05:00.000Z",
+     "dateLocal": "2018-01-22T19:05:00.000"
+    },
+    "scheduledGateDeparture": {
+     "dateUtc": "2018-01-23T00:05:00.000Z",
+     "dateLocal": "2018-01-22T19:05:00.000"
+    },
+    "estimatedGateDeparture": {
+     "dateUtc": "2018-01-22T23:52:00.000Z",
+     "dateLocal": "2018-01-22T18:52:00.000"
+    },
+    "actualGateDeparture": {
+     "dateUtc": "2018-01-22T23:52:00.000Z",
+     "dateLocal": "2018-01-22T18:52:00.000"
+    },
+    "flightPlanPlannedDeparture": {
+     "dateUtc": "2018-01-23T00:17:00.000Z",
+     "dateLocal": "2018-01-22T19:17:00.000"
+    },
+    "scheduledRunwayDeparture": {
+     "dateUtc": "2018-01-23T00:17:00.000Z",
+     "dateLocal": "2018-01-22T19:17:00.000"
+    },
+    "estimatedRunwayDeparture": {
+     "dateUtc": "2018-01-23T00:04:00.000Z",
+     "dateLocal": "2018-01-22T19:04:00.000"
+    },
+    "actualRunwayDeparture": {
+     "dateUtc": "2018-01-23T00:04:00.000Z",
+     "dateLocal": "2018-01-22T19:04:00.000"
+    },
+    "publishedArrival": {
+     "dateUtc": "2018-01-23T02:33:00.000Z",
+     "dateLocal": "2018-01-22T21:33:00.000"
+    },
+    "flightPlanPlannedArrival": {
+     "dateUtc": "2018-01-23T02:08:00.000Z",
+     "dateLocal": "2018-01-22T21:08:00.000"
+    },
+    "scheduledGateArrival": {
+     "dateUtc": "2018-01-23T02:33:00.000Z",
+     "dateLocal": "2018-01-22T21:33:00.000"
+    },
+    "estimatedGateArrival": {
+     "dateUtc": "2018-01-23T02:07:00.000Z",
+     "dateLocal": "2018-01-22T21:07:00.000"
+    },
+    "actualGateArrival": {
+     "dateUtc": "2018-01-23T02:07:00.000Z",
+     "dateLocal": "2018-01-22T21:07:00.000"
+    },
+    "scheduledRunwayArrival": {
+     "dateUtc": "2018-01-23T02:08:00.000Z",
+     "dateLocal": "2018-01-22T21:08:00.000"
+    },
+    "estimatedRunwayArrival": {
+     "dateUtc": "2018-01-23T01:58:00.000Z",
+     "dateLocal": "2018-01-22T20:58:00.000"
+    },
+    "actualRunwayArrival": {
+     "dateUtc": "2018-01-23T01:58:00.000Z",
+     "dateLocal": "2018-01-22T20:58:00.000"
+    }
+   },
+   "codeshares": [
+    {
+     "fsCode": "VS",
+     "flightNumber": "3390",
+     "relationship": "L"
+    }
+   ],
+   "delays": {},
+   "flightDurations": {
+    "scheduledBlockMinutes": 148,
+    "blockMinutes": 135,
+    "scheduledAirMinutes": 111,
+    "airMinutes": 114,
+    "scheduledTaxiOutMinutes": 12,
+    "taxiOutMinutes": 12,
+    "scheduledTaxiInMinutes": 25,
+    "taxiInMinutes": 9
+   },
+   "airportResources": {
+    "departureTerminal": "B",
+    "departureGate": "77",
+    "arrivalGate": "A8"
+   },
+   "flightEquipment": {
+    "scheduledEquipmentIataCode": "717",
+    "actualEquipmentIataCode": "717",
+    "tailNumber": "N937AT"
+   },
+   "irregularOperations": []
+  },
+  {
+   "flightId": 947145113,
+   "carrierFsCode": "DL",
+   "operatingCarrierFsCode": "DL",
+   "primaryCarrierFsCode": "DL",
+   "flightNumber": "32",
+   "departureAirportFsCode": "MCO",
+   "arrivalAirportFsCode": "ATL",
+   "departureDate": {
+    "dateUtc": "2018-01-23T00:30:00.000Z",
+    "dateLocal": "2018-01-22T19:30:00.000"
+   },
+   "arrivalDate": {
+    "dateUtc": "2018-01-23T02:09:00.000Z",
+    "dateLocal": "2018-01-22T21:09:00.000"
+   },
+   "status": "L",
+   "schedule": {
+    "flightType": "J",
+    "serviceClasses": "JY",
+    "restrictions": "",
+    "uplines": [],
+    "downlines": [
+     {
+      "fsCode": "LHR",
+      "flightId": 947145147
+     }
+    ]
+   },
+   "operationalTimes": {
+    "publishedDeparture": {
+     "dateUtc": "2018-01-23T00:30:00.000Z",
+     "dateLocal": "2018-01-22T19:30:00.000"
+    },
+    "scheduledGateDeparture": {
+     "dateUtc": "2018-01-23T00:30:00.000Z",
+     "dateLocal": "2018-01-22T19:30:00.000"
+    },
+    "estimatedGateDeparture": {
+     "dateUtc": "2018-01-23T00:48:00.000Z",
+     "dateLocal": "2018-01-22T19:48:00.000"
+    },
+    "actualGateDeparture": {
+     "dateUtc": "2018-01-23T00:48:00.000Z",
+     "dateLocal": "2018-01-22T19:48:00.000"
+    },
+    "flightPlanPlannedDeparture": {
+     "dateUtc": "2018-01-23T00:35:00.000Z",
+     "dateLocal": "2018-01-22T19:35:00.000"
+    },
+    "scheduledRunwayDeparture": {
+     "dateUtc": "2018-01-23T00:35:00.000Z",
+     "dateLocal": "2018-01-22T19:35:00.000"
+    },
+    "estimatedRunwayDeparture": {
+     "dateUtc": "2018-01-23T00:59:00.000Z",
+     "dateLocal": "2018-01-22T19:59:00.000"
+    },
+    "actualRunwayDeparture": {
+     "dateUtc": "2018-01-23T00:59:00.000Z",
+     "dateLocal": "2018-01-22T19:59:00.000"
+    },
+    "publishedArrival": {
+     "dateUtc": "2018-01-23T02:09:00.000Z",
+     "dateLocal": "2018-01-22T21:09:00.000"
+    },
+    "flightPlanPlannedArrival": {
+     "dateUtc": "2018-01-23T01:37:00.000Z",
+     "dateLocal": "2018-01-22T20:37:00.000"
+    },
+    "scheduledGateArrival": {
+     "dateUtc": "2018-01-23T02:09:00.000Z",
+     "dateLocal": "2018-01-22T21:09:00.000"
+    },
+    "estimatedGateArrival": {
+     "dateUtc": "2018-01-23T02:37:00.000Z",
+     "dateLocal": "2018-01-22T21:37:00.000"
+    },
+    "actualGateArrival": {
+     "dateUtc": "2018-01-23T02:37:00.000Z",
+     "dateLocal": "2018-01-22T21:37:00.000"
+    },
+    "scheduledRunwayArrival": {
+     "dateUtc": "2018-01-23T01:37:00.000Z",
+     "dateLocal": "2018-01-22T20:37:00.000"
+    },
+    "estimatedRunwayArrival": {
+     "dateUtc": "2018-01-23T02:26:00.000Z",
+     "dateLocal": "2018-01-22T21:26:00.000"
+    },
+    "actualRunwayArrival": {
+     "dateUtc": "2018-01-23T02:26:00.000Z",
+     "dateLocal": "2018-01-22T21:26:00.000"
+    }
+   },
+   "codeshares": [
+    {
+     "fsCode": "VS",
+     "flightNumber": "5198",
+     "relationship": "L"
+    },
+    {
+     "fsCode": "KL",
+     "flightNumber": "5591",
+     "relationship": "L"
+    },
+    {
+     "fsCode": "9W",
+     "flightNumber": "8127",
+     "relationship": "L"
+    },
+    {
+     "fsCode": "G3",
+     "flightNumber": "8039",
+     "relationship": "L"
+    }
+   ],
+   "delays": {
+    "departureGateDelayMinutes": 18,
+    "departureRunwayDelayMinutes": 24,
+    "arrivalGateDelayMinutes": 28,
+    "arrivalRunwayDelayMinutes": 49
+   },
+   "flightDurations": {
+    "scheduledBlockMinutes": 99,
+    "blockMinutes": 109,
+    "scheduledAirMinutes": 62,
+    "airMinutes": 87,
+    "scheduledTaxiOutMinutes": 5,
+    "taxiOutMinutes": 11,
+    "scheduledTaxiInMinutes": 32,
+    "taxiInMinutes": 11
+   },
+   "airportResources": {
+    "departureTerminal": "B",
+    "departureGate": "78",
+    "arrivalTerminal": "S",
+    "arrivalGate": "A7",
+    "baggage": "8"
+   },
+   "flightEquipment": {
+    "scheduledEquipmentIataCode": "757",
+    "actualEquipmentIataCode": "75D",
+    "tailNumber": "N556NW"
+   },
+   "irregularOperations": []
+  },
+  {
+   "flightId": 947144918,
+   "carrierFsCode": "DL",
+   "operatingCarrierFsCode": "DL",
+   "primaryCarrierFsCode": "DL",
+   "flightNumber": "2601",
+   "departureAirportFsCode": "MCO",
+   "arrivalAirportFsCode": "JFK",
+   "departureDate": {
+    "dateUtc": "2018-01-23T00:56:00.000Z",
+    "dateLocal": "2018-01-22T19:56:00.000"
+   },
+   "arrivalDate": {
+    "dateUtc": "2018-01-23T03:34:00.000Z",
+    "dateLocal": "2018-01-22T22:34:00.000"
+   },
+   "status": "L",
+   "schedule": {
+    "flightType": "J",
+    "serviceClasses": "FY",
+    "restrictions": "",
+    "uplines": [],
+    "downlines": []
+   },
+   "operationalTimes": {
+    "publishedDeparture": {
+     "dateUtc": "2018-01-23T00:56:00.000Z",
+     "dateLocal": "2018-01-22T19:56:00.000"
+    },
+    "scheduledGateDeparture": {
+     "dateUtc": "2018-01-23T00:56:00.000Z",
+     "dateLocal": "2018-01-22T19:56:00.000"
+    },
+    "estimatedGateDeparture": {
+     "dateUtc": "2018-01-23T00:56:00.000Z",
+     "dateLocal": "2018-01-22T19:56:00.000"
+    },
+    "actualGateDeparture": {
+     "dateUtc": "2018-01-23T00:56:00.000Z",
+     "dateLocal": "2018-01-22T19:56:00.000"
+    },
+    "flightPlanPlannedDeparture": {
+     "dateUtc": "2018-01-23T00:58:00.000Z",
+     "dateLocal": "2018-01-22T19:58:00.000"
+    },
+    "scheduledRunwayDeparture": {
+     "dateUtc": "2018-01-23T00:58:00.000Z",
+     "dateLocal": "2018-01-22T19:58:00.000"
+    },
+    "estimatedRunwayDeparture": {
+     "dateUtc": "2018-01-23T01:14:00.000Z",
+     "dateLocal": "2018-01-22T20:14:00.000"
+    },
+    "actualRunwayDeparture": {
+     "dateUtc": "2018-01-23T01:14:00.000Z",
+     "dateLocal": "2018-01-22T20:14:00.000"
+    },
+    "publishedArrival": {
+     "dateUtc": "2018-01-23T03:34:00.000Z",
+     "dateLocal": "2018-01-22T22:34:00.000"
+    },
+    "flightPlanPlannedArrival": {
+     "dateUtc": "2018-01-23T02:51:00.000Z",
+     "dateLocal": "2018-01-22T21:51:00.000"
+    },
+    "scheduledGateArrival": {
+     "dateUtc": "2018-01-23T03:34:00.000Z",
+     "dateLocal": "2018-01-22T22:34:00.000"
+    },
+    "estimatedGateArrival": {
+     "dateUtc": "2018-01-23T03:24:00.000Z",
+     "dateLocal": "2018-01-22T22:24:00.000"
+    },
+    "actualGateArrival": {
+     "dateUtc": "2018-01-23T03:24:00.000Z",
+     "dateLocal": "2018-01-22T22:24:00.000"
+    },
+    "scheduledRunwayArrival": {
+     "dateUtc": "2018-01-23T02:51:00.000Z",
+     "dateLocal": "2018-01-22T21:51:00.000"
+    },
+    "estimatedRunwayArrival": {
+     "dateUtc": "2018-01-23T03:13:00.000Z",
+     "dateLocal": "2018-01-22T22:13:00.000"
+    },
+    "actualRunwayArrival": {
+     "dateUtc": "2018-01-23T03:13:00.000Z",
+     "dateLocal": "2018-01-22T22:13:00.000"
+    }
+   },
+   "codeshares": [
+    {
+     "fsCode": "VS",
+     "flightNumber": "4746",
+     "relationship": "L"
+    },
+    {
+     "fsCode": "AZ",
+     "flightNumber": "3341",
+     "relationship": "L"
+    },
+    {
+     "fsCode": "SU",
+     "flightNumber": "3589",
+     "relationship": "L"
+    },
+    {
+     "fsCode": "KE",
+     "flightNumber": "7340",
+     "relationship": "L"
+    }
+   ],
+   "delays": {
+    "departureRunwayDelayMinutes": 16,
+    "arrivalRunwayDelayMinutes": 22
+   },
+   "flightDurations": {
+    "scheduledBlockMinutes": 158,
+    "blockMinutes": 148,
+    "scheduledAirMinutes": 113,
+    "airMinutes": 119,
+    "scheduledTaxiOutMinutes": 2,
+    "taxiOutMinutes": 18,
+    "scheduledTaxiInMinutes": 43,
+    "taxiInMinutes": 11
+   },
+   "airportResources": {
+    "departureTerminal": "B",
+    "departureGate": "75",
+    "arrivalTerminal": "2",
+    "arrivalGate": "C64",
+    "baggage": "E2"
+   },
+   "flightEquipment": {
+    "scheduledEquipmentIataCode": "320",
+    "actualEquipmentIataCode": "32S",
+    "tailNumber": "N325US"
+   },
+   "irregularOperations": []
+  }
+ ],
+ "appendix": {
+  "airlines": [
+   {
+    "fs": "KL",
+    "iata": "KL",
+    "icao": "KLM",
+    "name": "KLM",
+    "phoneNumber": "1-800-447-4747",
+    "active": true,
+    "category": "I"
+   },
+   {
+    "fs": "SU",
+    "iata": "SU",
+    "icao": "AFL",
+    "name": "Aeroflot",
+    "phoneNumber": "+7 495 223-55-55",
+    "active": true,
+    "category": "I"
+   },
+   {
+    "fs": "UX",
+    "iata": "UX",
+    "icao": "AEA",
+    "name": "Air Europa",
+    "phoneNumber": "1.800.238.7672",
+    "active": true,
+    "category": "I"
+   },
+   {
+    "fs": "AF",
+    "iata": "AF",
+    "icao": "AFR",
+    "name": "Air France",
+    "phoneNumber": "1-800-237-2747",
+    "active": true,
+    "category": "I"
+   },
+   {
+    "fs": "MU",
+    "iata": "MU",
+    "icao": "CES",
+    "name": "China Eastern Airlines",
+    "phoneNumber": "+86 21 95108",
+    "active": true,
+    "category": "I"
+   },
+   {
+    "fs": "DL",
+    "iata": "DL",
+    "icao": "DAL",
+    "name": "Delta Air Lines",
+    "phoneNumber": "1-800-221-1212",
+    "active": true,
+    "category": "I"
+   },
+   {
+    "fs": "VA",
+    "iata": "VA",
+    "icao": "VOZ",
+    "name": "Virgin Australia",
+    "active": true,
+    "category": "I"
+   },
+   {
+    "fs": "AM",
+    "iata": "AM",
+    "icao": "AMX",
+    "name": "Aeromexico",
+    "phoneNumber": "1-800-237-6639",
+    "active": true,
+    "category": "I"
+   },
+   {
+    "fs": "G3",
+    "iata": "G3",
+    "icao": "GLO",
+    "name": "Gol",
+    "phoneNumber": "+55 11 2125 3200",
+    "active": true,
+    "category": "I"
+   },
+   {
+    "fs": "AZ",
+    "iata": "AZ",
+    "icao": "AZA",
+    "name": "Alitalia",
+    "phoneNumber": "1-800-223-5730",
+    "active": true,
+    "category": "I"
+   },
+   {
+    "fs": "KE",
+    "iata": "KE",
+    "icao": "KAL",
+    "name": "Korean Air",
+    "phoneNumber": "1-800-438-5000",
+    "active": true,
+    "category": "I"
+   },
+   {
+    "fs": "WS",
+    "iata": "WS",
+    "icao": "WJA",
+    "name": "WestJet",
+    "phoneNumber": "1-888-937-8538",
+    "active": true,
+    "category": "I"
+   },
+   {
+    "fs": "VS",
+    "iata": "VS",
+    "icao": "VIR",
+    "name": "Virgin Atlantic",
+    "active": true,
+    "category": "I"
+   },
+   {
+    "fs": "9W",
+    "iata": "9W",
+    "icao": "JAI",
+    "name": "Jet Airways (India)",
+    "phoneNumber": "0808 101 1199 (UK toll free reservations)",
+    "active": true,
+    "category": "I"
+   }
+  ],
+  "airports": [
+   {
+    "fs": "RDU",
+    "iata": "RDU",
+    "icao": "KRDU",
+    "faa": "RDU",
+    "name": "Raleigh-Durham International Airport",
+    "city": "Raleigh/Durham",
+    "cityCode": "RDU",
+    "stateCode": "NC",
+    "postalCode": "27623",
+    "countryCode": "US",
+    "countryName": "United States",
+    "regionName": "North America",
+    "timeZoneRegionName": "America/New_York",
+    "weatherZone": "NCZ041",
+    "localTime": "2019-02-25T23:16:18.449",
+    "utcOffsetHours": -5,
+    "latitude": 35.873592,
+    "longitude": -78.790862,
+    "elevationFeet": 435,
+    "classification": 2,
+    "active": true
+   },
+   {
+    "fs": "LAX",
+    "iata": "LAX",
+    "icao": "KLAX",
+    "faa": "LAX",
+    "name": "Los Angeles International Airport",
+    "street1": "One World Way",
+    "street2": "",
+    "city": "Los Angeles",
+    "cityCode": "LAX",
+    "stateCode": "CA",
+    "postalCode": "90045-5803",
+    "countryCode": "US",
+    "countryName": "United States",
+    "regionName": "North America",
+    "timeZoneRegionName": "America/Los_Angeles",
+    "weatherZone": "CAZ041",
+    "localTime": "2019-02-25T20:16:18.449",
+    "utcOffsetHours": -8,
+    "latitude": 33.943399,
+    "longitude": -118.408279,
+    "elevationFeet": 126,
+    "classification": 1,
+    "active": true
+   },
+   {
+    "fs": "DTW",
+    "iata": "DTW",
+    "icao": "KDTW",
+    "faa": "DTW",
+    "name": "Detroit Metropolitan Wayne County Airport",
+    "street1": "1 Detroit Metro Airport",
+    "street2": "Smith Building, Mezzanie Level",
+    "city": "Detroit",
+    "cityCode": "DTT",
+    "stateCode": "MI",
+    "postalCode": "48242",
+    "countryCode": "US",
+    "countryName": "United States",
+    "regionName": "North America",
+    "timeZoneRegionName": "America/New_York",
+    "weatherZone": "MIZ076",
+    "localTime": "2019-02-25T23:16:18.448",
+    "utcOffsetHours": -5,
+    "latitude": 42.207808,
+    "longitude": -83.356048,
+    "elevationFeet": 640,
+    "classification": 1,
+    "active": true
+   },
+   {
+    "fs": "BOS",
+    "iata": "BOS",
+    "icao": "KBOS",
+    "faa": "BOS",
+    "name": "Logan International Airport",
+    "street1": "One Harborside Drive",
+    "street2": "",
+    "city": "Boston",
+    "cityCode": "BOS",
+    "stateCode": "MA",
+    "postalCode": "02128-2909",
+    "countryCode": "US",
+    "countryName": "United States",
+    "regionName": "North America",
+    "timeZoneRegionName": "America/New_York",
+    "weatherZone": "MAZ015",
+    "localTime": "2019-02-25T23:16:18.449",
+    "utcOffsetHours": -5,
+    "latitude": 42.36646,
+    "longitude": -71.020176,
+    "elevationFeet": 19,
+    "classification": 1,
+    "active": true
+   },
+   {
+    "fs": "LGA",
+    "iata": "LGA",
+    "icao": "KLGA",
+    "faa": "LGA",
+    "name": "LaGuardia Airport",
+    "street1": "Hangar 7 Center",
+    "city": "New York",
+    "cityCode": "NYC",
+    "stateCode": "NY",
+    "postalCode": "11371",
+    "countryCode": "US",
+    "countryName": "United States",
+    "regionName": "North America",
+    "timeZoneRegionName": "America/New_York",
+    "weatherZone": "NYZ176",
+    "localTime": "2019-02-25T23:16:18.449",
+    "utcOffsetHours": -5,
+    "latitude": 40.774252,
+    "longitude": -73.871617,
+    "elevationFeet": 22,
+    "classification": 1,
+    "active": true
+   },
+   {
+    "fs": "AMS",
+    "iata": "AMS",
+    "icao": "EHAM",
+    "name": "Amsterdam Airport Schiphol",
+    "city": "Amsterdam",
+    "cityCode": "AMS",
+    "countryCode": "NL",
+    "countryName": "Netherlands",
+    "regionName": "Europe",
+    "timeZoneRegionName": "Europe/Amsterdam",
+    "localTime": "2019-02-26T05:16:18.448",
+    "utcOffsetHours": 1,
+    "latitude": 52.309069,
+    "longitude": 4.763385,
+    "elevationFeet": -11,
+    "classification": 1,
+    "active": true
+   },
+   {
+    "fs": "SLC",
+    "iata": "SLC",
+    "icao": "KSLC",
+    "faa": "SLC",
+    "name": "Salt Lake City International Airport",
+    "street1": "776 North Terminal Drive",
+    "street2": "",
+    "city": "Salt Lake City",
+    "cityCode": "SLC",
+    "stateCode": "UT",
+    "postalCode": "84116",
+    "countryCode": "US",
+    "countryName": "United States",
+    "regionName": "North America",
+    "timeZoneRegionName": "America/Denver",
+    "weatherZone": "UTZ003",
+    "localTime": "2019-02-25T21:16:18.449",
+    "utcOffsetHours": -7,
+    "latitude": 40.785645,
+    "longitude": -111.980673,
+    "elevationFeet": 4227,
+    "classification": 1,
+    "active": true
+   },
+   {
+    "fs": "MSP",
+    "iata": "MSP",
+    "icao": "KMSP",
+    "faa": "MSP",
+    "name": "Minneapolis-St. Paul International Airport",
+    "street1": "6040 28th Avenue South",
+    "city": "Minneapolis",
+    "cityCode": "MSP",
+    "stateCode": "MN",
+    "postalCode": "55450",
+    "countryCode": "US",
+    "countryName": "United States",
+    "regionName": "North America",
+    "timeZoneRegionName": "America/Chicago",
+    "weatherZone": "MNZ060",
+    "localTime": "2019-02-25T22:16:18.449",
+    "utcOffsetHours": -6,
+    "latitude": 44.883016,
+    "longitude": -93.210922,
+    "elevationFeet": 841,
+    "classification": 1,
+    "active": true
+   },
+   {
+    "fs": "JFK",
+    "iata": "JFK",
+    "icao": "KJFK",
+    "faa": "JFK",
+    "name": "John F. Kennedy International Airport",
+    "street1": "JFK Airport",
+    "city": "New York",
+    "cityCode": "NYC",
+    "stateCode": "NY",
+    "postalCode": "11430",
+    "countryCode": "US",
+    "countryName": "United States",
+    "regionName": "North America",
+    "timeZoneRegionName": "America/New_York",
+    "weatherZone": "NYZ178",
+    "localTime": "2019-02-25T23:16:18.449",
+    "utcOffsetHours": -5,
+    "latitude": 40.642335,
+    "longitude": -73.78817,
+    "elevationFeet": 13,
+    "classification": 1,
+    "active": true
+   },
+   {
+    "fs": "CVG",
+    "iata": "CVG",
+    "icao": "KCVG",
+    "faa": "CVG",
+    "name": "Cincinnati/Northern Kentucky Airport",
+    "city": "Cincinnati",
+    "cityCode": "CVG",
+    "stateCode": "OH",
+    "postalCode": "41048",
+    "countryCode": "US",
+    "countryName": "United States",
+    "regionName": "North America",
+    "timeZoneRegionName": "America/New_York",
+    "weatherZone": "OHZ077",
+    "localTime": "2019-02-25T23:16:18.449",
+    "utcOffsetHours": -5,
+    "latitude": 39.0555,
+    "longitude": -84.66145,
+    "elevationFeet": 897,
+    "classification": 1,
+    "active": true
+   },
+   {
+    "fs": "LHR",
+    "iata": "LHR",
+    "icao": "EGLL",
+    "name": "London Heathrow Airport",
+    "city": "London",
+    "cityCode": "LON",
+    "stateCode": "EN",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "regionName": "Europe",
+    "timeZoneRegionName": "Europe/London",
+    "localTime": "2019-02-26T04:16:18.449",
+    "utcOffsetHours": 0,
+    "latitude": 51.469603,
+    "longitude": -0.453566,
+    "elevationFeet": 80,
+    "classification": 1,
+    "active": true
+   },
+   {
+    "fs": "MCO",
+    "iata": "MCO",
+    "icao": "KMCO",
+    "faa": "MCO",
+    "name": "Orlando International Airport",
+    "street1": "One Airport Boulevard",
+    "street2": "",
+    "city": "Orlando",
+    "cityCode": "ORL",
+    "stateCode": "FL",
+    "postalCode": "32827-4399",
+    "countryCode": "US",
+    "countryName": "United States",
+    "regionName": "North America",
+    "timeZoneRegionName": "America/New_York",
+    "weatherZone": "FLZ045",
+    "localTime": "2019-02-25T23:16:18.448",
+    "utcOffsetHours": -5,
+    "latitude": 28.432177,
+    "longitude": -81.308301,
+    "elevationFeet": 96,
+    "classification": 1,
+    "active": true
+   },
+   {
+    "fs": "ATL",
+    "iata": "ATL",
+    "icao": "KATL",
+    "faa": "ATL",
+    "name": "Hartsfield-Jackson Atlanta International Airport",
+    "street1": "6000 N Terminal Parkway",
+    "street2": "",
+    "city": "Atlanta",
+    "cityCode": "ATL",
+    "stateCode": "GA",
+    "postalCode": "30320",
+    "countryCode": "US",
+    "countryName": "United States",
+    "regionName": "North America",
+    "timeZoneRegionName": "America/New_York",
+    "weatherZone": "GAZ044",
+    "localTime": "2019-02-25T23:16:18.448",
+    "utcOffsetHours": -5,
+    "latitude": 33.640067,
+    "longitude": -84.44403,
+    "elevationFeet": 1026,
+    "classification": 1,
+    "active": true
+   },
+   {
+    "fs": "IND",
+    "iata": "IND",
+    "icao": "KIND",
+    "faa": "IND",
+    "name": "Indianapolis International Airport",
+    "street1": "7800 Col. H. Weir Cook Memorial Drive",
+    "city": "Indianapolis",
+    "cityCode": "IND",
+    "stateCode": "IN",
+    "postalCode": "46241",
+    "countryCode": "US",
+    "countryName": "United States",
+    "regionName": "North America",
+    "timeZoneRegionName": "America/Indiana/Indianapolis",
+    "weatherZone": "INZ047",
+    "localTime": "2019-02-25T23:16:18.449",
+    "utcOffsetHours": -5,
+    "latitude": 39.71627,
+    "longitude": -86.292991,
+    "elevationFeet": 773,
+    "classification": 1,
+    "active": true
+   }
+  ],
+  "equipments": [
+   {
+    "iata": "320",
+    "name": "Airbus A320",
+    "turboProp": false,
+    "jet": true,
+    "widebody": false,
+    "regional": false
+   },
+   {
+    "iata": "321",
+    "name": "Airbus A321",
+    "turboProp": false,
+    "jet": true,
+    "widebody": false,
+    "regional": false
+   },
+   {
+    "iata": "752",
+    "name": "Boeing 757-200 Passenger",
+    "turboProp": false,
+    "jet": true,
+    "widebody": false,
+    "regional": false
+   },
+   {
+    "iata": "32S",
+    "name": "Airbus A318 / A319 / A320 / A321",
+    "turboProp": false,
+    "jet": true,
+    "widebody": false,
+    "regional": false
+   },
+   {
+    "iata": "753",
+    "name": "Boeing 757-300 Passenger",
+    "turboProp": false,
+    "jet": true,
+    "widebody": false,
+    "regional": false
+   },
+   {
+    "iata": "75D",
+    "name": "Boeing 757-232",
+    "turboProp": false,
+    "jet": false,
+    "widebody": false,
+    "regional": false
+   },
+   {
+    "iata": "757",
+    "name": "Boeing 757 Passenger",
+    "turboProp": false,
+    "jet": true,
+    "widebody": false,
+    "regional": false
+   },
+   {
+    "iata": "M88",
+    "name": "Boeing (Douglas) MD-88",
+    "turboProp": false,
+    "jet": true,
+    "widebody": false,
+    "regional": false
+   },
+   {
+    "iata": "738",
+    "name": "Boeing 737-800 Passenger",
+    "turboProp": false,
+    "jet": true,
+    "widebody": false,
+    "regional": false
+   },
+   {
+    "iata": "717",
+    "name": "Boeing 717-200",
+    "turboProp": false,
+    "jet": true,
+    "widebody": false,
+    "regional": false
+   },
+   {
+    "iata": "739",
+    "name": "Boeing 737-900 Passenger",
+    "turboProp": false,
+    "jet": true,
+    "widebody": false,
+    "regional": false
+   }
+  ]
+ }
+}
